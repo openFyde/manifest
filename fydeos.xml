@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openfyde"
+    fetch="https://gitee.com" />
+
+  <remote name="gerrit"
+    fetch="https://gerrit.openfyde.cn" />
+
+  <project path="openfyde/chromium/src"
+    name="chromium.googlesource.com/chromium/src"
+    revision="refs/tags/92.0.4515.138"
+    groups="fydeos,chromium"
+    remote="gerrit">
+  </project>
+
+  <project path="openfyde/overlays/overlay-amd64-fydeos"
+    name="openfyde/overlay-amd64-fydeos"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-amd64-fydeos" />
+  </project>
+
+  <project path="openfyde/overlays/arch-amd64"
+    name="openfyde/arch-amd64"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/arch-amd64" />
+  </project>
+
+  <project path="openfyde/overlays/project-arcplus"
+    name="openfyde/project-arcplus"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-arcplus" />
+  </project>
+
+  <project path="openfyde/overlays/project-fydemina"
+    name="openfyde/project-fydemina"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-fydemina" />
+  </project>
+
+  <project path="openfyde/overlays/project-fydeos"
+    name="openfyde/project-fydeos"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-fydeos" />
+  </project>
+
+  <project path="openfyde/overlays/project-fydeos-drivers"
+    name="openfyde/project-fydeos-drivers"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-fydeos-drivers" />
+  </project>
+
+  <project path="openfyde/overlays/project-gentoo-pkgs"
+    name="openfyde/project-gentoo-pkgs"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-gentoo-pkgs" />
+  </project>
+
+  <project path="openfyde/overlays/project-patches"
+    name="openfyde/project-patches"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-patches" />
+  </project>
+
+</manifest>
