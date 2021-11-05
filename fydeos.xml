@@ -3,14 +3,19 @@
   <remote name="openfyde"
     fetch="https://gitee.com" />
 
-  <remote name="gerrit"
-    fetch="https://gerrit.openfyde.cn" />
-
   <project path="openfyde/chromium/src"
-    name="chromium.googlesource.com/chromium/src"
-    revision="refs/tags/92.0.4515.138"
+    name="chromium/src"
+    revision="refs/tags/92.0.4515.183"
     groups="fydeos,chromium"
-    remote="gerrit">
+    remote="cros">
+  </project>
+
+  <project path="openfyde/dotgclient"
+    name="openFyde/chromium_gclient"
+    revision="refs/heads/master"
+    groups="fydeos,chromium"
+    remote="openfyde">
+    <linkfile src="dotgclient" dest="openfyde/chromium/.gclient" />
   </project>
 
   <project path="openfyde/overlays/overlay-amd64-fydeos"
