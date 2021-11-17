@@ -5,7 +5,7 @@
 
   <project path="openfyde/chromium/src"
     name="chromium/src"
-    revision="refs/tags/92.0.4515.183"
+    revision="refs/heads/openfyde_r92"
     groups="fydeos,chromium"
     remote="cros">
   </project>
