@@ -82,4 +82,44 @@
     <linkfile src="." dest="src/overlays/project-patches" />
   </project>
 
+  <project path="openfyde/overlays/baseboard-rpi3"
+    name="openfyde/baseboard-rpi3"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/baseboard-rpi3" />
+  </project>
+
+  <project path="openfyde/overlays/project-cros-pi"
+    name="openfyde/project-cros-pi"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-cros-pi" />
+  </project>
+
+  <project path="openfyde/overlays/chipset-bcm2837"
+    name="openfyde/chipset-bcm2837"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/chipset-bcm2837" />
+  </project>
+
+  <project path="openfyde/overlays/overlay-rpi4"
+    name="openfyde/overlay-rpi4"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-rpi4" />
+  </project>
+
+  <project path="openfyde/overlays/overlay-rpi4-openfyde"
+    name="openfyde/overlay-rpi4-openfyde"
+    revision="refs/heads/r92"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-rpi4-openfyde" />
+  </project>
+
 </manifest>
