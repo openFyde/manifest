@@ -34,14 +34,6 @@
     <linkfile src="." dest="src/overlays/arch-amd64" />
   </project>
 
-  <project path="openfyde/overlays/project-arcplus"
-    name="openfyde/project-arcplus"
-    revision="refs/heads/r92"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/project-arcplus" />
-  </project>
-
   <project path="openfyde/overlays/project-fydemina"
     name="openfyde/project-fydemina"
     revision="refs/heads/r92"
