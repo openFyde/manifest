@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="openfyde"
-    fetch="https://gitee.com" />
+  <include name="local_manifests/remotes.xml" />
 
   <project path="openfyde/chromium/src"
     name="chromium/src"
     revision="refs/heads/openfyde_r92"
     groups="fydeos,chromium"
-    remote="cros">
+    remote="openfyde_cros">
   </project>
 
   <project path="openfyde/dotgclient"
-    name="openFyde/chromium_gclient"
-    revision="refs/heads/master"
+    name="dotgclient"
+    revision="refs/heads/devel"
     groups="fydeos,chromium"
-    remote="openfyde">
+    remote="openfyde-github">
     <linkfile src="dotgclient" dest="openfyde/chromium/.gclient" />
   </project>
 

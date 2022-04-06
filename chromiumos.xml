@@ -1,220 +1,220 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!-- original manifest: https://chromium.googlesource.com/chromiumos/manifest release-R92-13982.B -->
 <manifest>
-  <extend-project name="chromiumos/repohooks" origRev="refs/heads/release-R92-13982.B" path="src/repohooks" revision="e2402c280fa4b796ae695e1b8fb3b190cd3f88c5" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="8089665c29b8ffac628e06909bad8fbc6a22dfaa" path="src/third_party/kernel/upstream" revision="8089665c29b8ffac628e06909bad8fbc6a22dfaa" />
-  <extend-project name="chromiumos/config" origRev="refs/heads/release-R92-13982.B" path="src/config" revision="cc65921aa6c050a31fd0060f9c9f0aa8b59ca9a3" />
-  <extend-project name="chromiumos/project" origRev="refs/heads/release-R92-13982.B" path="src/project_public" revision="dfa475fdc80db6f8ac2bac85332195d84ac749c9" />
-  <extend-project name="chromiumos/docs" origRev="refs/heads/release-R92-13982.B" path="docs" revision="eba68b5ef0b28ea200045f94ee98cac5282cdc7d" />
-  <extend-project name="chromiumos/infra_virtualenv" origRev="refs/heads/release-R92-13982.B" path="infra_virtualenv" revision="cab8a95f2961561eb56a95d6f2bfc685686db75a" />
-  <extend-project name="chromiumos/chromite" origRev="refs/heads/release-R92-13982.B" path="chromite" revision="de6816879a94bb8ef78baf8fd2ffc690078d818c" />
-  <extend-project name="chromiumos/chromite" origRev="refs/heads/main" path="infra/chromite-HEAD" revision="add726f194ed9da7a7e266ab0c50ea0a956c5291" />
-  <extend-project name="chromiumos/infra/proto" origRev="refs/heads/release-R92-13982.B" path="chromite/infra/proto" revision="bdfd05fe5d11d0541917d5ec3e4f80b8b12fb22b" />
-  <extend-project name="chromiumos/infra/proto" origRev="refs/heads/main" path="infra/proto" revision="dfb6fe0748665c5f092ff11a7fd96075b00b5dab" />
-  <extend-project name="chromiumos/infra/ci_results_archiver" origRev="refs/heads/main" path="infra/ci_results_archiver" revision="e6522e93bc7107bf5caa655806aceeef3fe83354" />
-  <extend-project name="chromiumos/infra/go" origRev="refs/heads/main" path="infra/go" revision="6eadc22e734e94376e053926fb56729094b36adc" />
-  <extend-project name="chromiumos/infra/lucifer" origRev="refs/heads/release-R92-13982.B" path="infra/lucifer" revision="309fdc2b23d83e0d2d18ba0468e6ce6d4adffe49" />
-  <extend-project name="chromiumos/infra/recipes" origRev="refs/heads/main" path="infra/recipes" revision="e95984b36fd993e69c9740cd3c5fa3317dca313e" />
-  <extend-project name="chromiumos/infra/suite_scheduler" origRev="refs/heads/main" path="infra/suite_scheduler" revision="5f374c4bd31e168663c338ba10695f399a4f1a8f" />
-  <extend-project name="chromiumos/infra/test_analyzer" origRev="refs/heads/release-R92-13982.B" path="infra/test_analyzer" revision="14119cc21c146544791fe387f64a4b809c4ea789" />
-  <extend-project name="chromiumos/infra/tnull" origRev="refs/heads/release-R92-13982.B" path="infra/tnull" revision="cd73092111d0cc708e5957759bc75afb702fdd3c" />
-  <extend-project name="chromiumos/third_party/pyelftools" origRev="refs/heads/release-R92-13982.B" path="chromite/third_party/pyelftools" revision="0890b98431a9b2e637c18f719232d06a4e5c3cd8" />
-  <extend-project name="infra/luci/client-py" origRev="34b20305c7a69eb89e1abd5e2a94708db999f0a9" path="chromite/third_party/swarming.client" revision="34b20305c7a69eb89e1abd5e2a94708db999f0a9" />
-  <extend-project name="chromiumos/infra/build/empty-project" origRev="3a01873e59ec25ecb10d1b07ff9816e69f3bbfee" path="src/platform/empty-project" revision="3a01873e59ec25ecb10d1b07ff9816e69f3bbfee" />
-  <extend-project name="aosp/platform/external/libchrome" origRev="refs/heads/release-R92-13982.B" path="src/aosp/external/libchrome" revision="e8446fb798096e3ac940dd43fa1eb68bf2a11a09" />
-  <extend-project name="aosp/platform/external/libutf" origRev="refs/heads/release-R92-13982.B" path="src/aosp/external/libutf" revision="c17bb435be940edf1aff81469215bb6a071f3c38" />
-  <extend-project name="platform/external/minijail" origRev="b06ce9b6f7303c4fca92e9eea08588c967cad9e0" path="src/aosp/external/minijail" revision="b06ce9b6f7303c4fca92e9eea08588c967cad9e0" />
-  <extend-project name="aosp/platform/frameworks/ml" origRev="refs/heads/release-R92-13982.B" path="src/aosp/frameworks/ml" revision="9393e8e433ae9255eec4de65671364d363ca6657" />
-  <extend-project name="aosp/platform/frameworks/native" origRev="refs/heads/release-R92-13982.B" path="src/aosp/frameworks/native" revision="23e2bf511667b4fa5859812a4e7945c8638f6603" />
-  <extend-project name="aosp/platform/hardware/interfaces/neuralnetworks" origRev="refs/heads/release-R92-13982.B" path="src/aosp/hardware/interfaces/neuralnetworks" revision="fd0a01eb09dcc34f1a42e5c0f6ebf0f384fd9abd" />
-  <extend-project name="aosp/platform/system/core/base" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/core/base" revision="8cf6479cfd925657da51da04902a68dfe7e84632" />
-  <extend-project name="aosp/platform/system/core/libbacktrace" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/core/libbacktrace" revision="d67ee5af5ee2790631aa4f7ca125d12c09840436" />
-  <extend-project name="aosp/platform/system/core/libcutils" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/core/libcutils" revision="f0d85f116fd745ed927bca0102a1040629e528c9" />
-  <extend-project name="aosp/platform/system/core/liblog" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/core/liblog" revision="9cca7081cb7d158034bffec841f227af52cca401" />
-  <extend-project name="aosp/platform/system/core/libutils" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/core/libutils" revision="c92d0857816b8694a74ba1a47b754563d4452f65" />
-  <extend-project name="aosp/platform/system/libbase" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/libbase" revision="b7f8cf0f0beab62bc5a391226ebd835c2fe377dc" />
-  <extend-project name="aosp/platform/system/libfmq" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/libfmq" revision="8e369832671de86e05cbbd3eeb7ddfe7df95f1ec" />
-  <extend-project name="aosp/platform/system/libhidl" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/libhidl" revision="6b79fa280312109216ce8b3a4893f266775cddc2" />
-  <extend-project name="aosp/platform/system/core/libsync" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/libsync" revision="05807ab5b35a7c413516bae73d496de1360e9ae9" />
-  <extend-project name="aosp/platform/system/logging" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/logging" revision="e386a40d816e794c12040936608d252ab96077a7" />
-  <extend-project name="aosp/platform/system/update_engine" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/update_engine" revision="7ae3c1b19a665782f5cbbe7246be36d8fe6067ac" />
-  <extend-project name="chromiumos/overlays/board-overlays" origRev="refs/heads/release-R92-13982.B" path="src/overlays" revision="refs/heads/release-R92-13982.B-fydeos" />
-  <extend-project name="chromiumos/platform2" origRev="refs/heads/release-R92-13982.B" path="src/platform2" revision="c2d16b592cf6bf28dea71bf9f2d1e4274668822f" />
-  <extend-project name="chromiumos/platform/experimental" origRev="refs/heads/release-R92-13982.B" path="src/platform/experimental" revision="2927fce20adf74b0c9a32a61e3edff894221f283" />
-  <extend-project name="chromiumos/platform/assets" origRev="refs/heads/release-R92-13982.B" path="src/platform/assets" revision="263e788d0bafc30b06ed78befe90dbe27daddd14" />
-  <extend-project name="chromiumos/platform/audiotest" origRev="refs/heads/release-R92-13982.B" path="src/platform/audiotest" revision="aa0a03dcbb3ce57083768bfe3914e68b5c100e36" />
-  <extend-project name="chromiumos/platform/bisect-kit" origRev="refs/heads/release-R92-13982.B" path="src/platform/bisect-kit" revision="3472032ec2ac3fd08d6ab8d84ebc1500379824c7" />
-  <extend-project name="chromiumos/platform/bmpblk" origRev="refs/heads/release-R92-13982.B" path="src/platform/bmpblk" revision="986dd8a50a1e90f64620da0745b026a363865b78" />
-  <extend-project name="chromiumos/platform/btsocket" origRev="refs/heads/release-R92-13982.B" path="src/platform/btsocket" revision="e1cb3b9c86ec37b742be1b59ee973e0eea35d2e3" />
-  <extend-project name="chromiumos/platform/camera" origRev="refs/heads/release-R92-13982.B" path="src/platform/camera" revision="6c9eb270968c9c1d216cf94c180e3cf8bd545234" />
-  <extend-project name="chromiumos/platform/cbor" origRev="refs/heads/release-R92-13982.B" path="src/platform/cbor" revision="6d5abcafdfda3c78f64cb242c8d7e8076c5af451" />
-  <extend-project name="chromiumos/platform/cfm-device-monitor" origRev="refs/heads/release-R92-13982.B" path="src/platform/cfm-device-monitor" revision="926b49b3aa439de1b10c58e38591a86eaa18a40d" />
-  <extend-project name="chromiumos/platform/chameleon" origRev="refs/heads/release-R92-13982.B" path="src/platform/chameleon" revision="8b872a709aa95e6e545bbda99e3280fd086b3d20" />
-  <extend-project name="chromiumos/platform/chromiumos-assets" origRev="refs/heads/release-R92-13982.B" path="src/platform/chromiumos-assets" revision="5037962d61e241aecbd1ba695cc984cd64a8fff7" />
-  <extend-project name="chromiumos/platform/cobble" origRev="refs/heads/release-R92-13982.B" path="src/platform/cobble" revision="4ab43f1f86b7099b8ad75cf9615ea1fa155bbd7d" />
-  <extend-project name="chromiumos/containers/cros-container-guest-tools" origRev="refs/heads/release-R92-13982.B" path="src/platform/container-guest-tools" revision="216f2f5fb1f8e4c3003afabf746486b5c1dad589" />
-  <extend-project name="chromiumos/platform/ec" origRev="refs/heads/release-R92-13982.B-cr50_stab" path="src/platform/cr50" revision="5c11d1e8b7e016fa782d7f627b348e608ab48a4f" />
-  <extend-project name="chromiumos/platform/crostestutils" origRev="refs/heads/release-R92-13982.B" path="src/platform/crostestutils" revision="c306e290b02c6d8dfb7aa9e0d5202d976ede7532" />
-  <extend-project name="chromiumos/platform/crosvm" origRev="refs/heads/release-R92-13982.B" path="src/platform/crosvm" revision="610cbfc17c7c36701211e20fd0f34351c1b53ccf" />
-  <extend-project name="chromiumos/platform/depthcharge" origRev="refs/heads/release-R92-13982.B" path="src/platform/depthcharge" revision="039618675399c1bad7fe797813e0202d51895488" />
-  <extend-project name="chromiumos/platform/dev-util" origRev="refs/heads/release-R92-13982.B" path="src/platform/dev" revision="1c3bc92c80b93dcebff0f0212e8b302facf0d502" />
-  <extend-project name="chromiumos/platform/drm-tests" origRev="refs/heads/release-R92-13982.B" path="src/platform/drm-tests" revision="8d4eef3da588ce1156c2210de022777aeb9f18e3" />
-  <extend-project name="chromiumos/platform/ec" origRev="refs/heads/release-R92-13982.B-main" path="src/platform/ec" revision="c479001f232c15aa918cfd1a39cc0faf741d9c81" />
-  <extend-project name="chromiumos/platform/factory" origRev="refs/heads/release-R92-13982.B" path="src/platform/factory" revision="d0be6150440df62eddbff84b4e850e757c68c3aa" />
-  <extend-project name="chromiumos/platform/factory_installer" origRev="refs/heads/release-R92-13982.B" path="src/platform/factory_installer" revision="7d599b14d8d3b5dac32b613e99e34ef8364b3232" />
-  <extend-project name="chromiumos/platform/firmware" origRev="refs/heads/release-R92-13982.B" path="src/platform/firmware" revision="07591e49e9dd9b33b49b0e791feecb5cb8d6dee0" />
-  <extend-project name="chromiumos/platform/frecon" origRev="refs/heads/release-R92-13982.B" path="src/platform/frecon" revision="db3923aa9569c82277f8756af3ba1c2f2b049330" />
-  <extend-project name="chromiumos/platform/gestures" origRev="refs/heads/release-R92-13982.B" path="src/platform/gestures" revision="d67318268c3ff0c7788c444b0ac05094cacd57d1" />
-  <extend-project name="chromiumos/platform/glbench" origRev="refs/heads/release-R92-13982.B-main" path="src/platform/glbench" revision="e96d7c6a57b16c7f4a265506f86ea827f8e23c6f" />
-  <extend-project name="chromiumos/platform/go-seccomp" origRev="refs/heads/release-R92-13982.B" path="src/platform/go-seccomp" revision="9d14f8b297985ec80f05d14afd6378e3350e2c41" />
-  <extend-project name="chromiumos/platform/graphics" origRev="refs/heads/release-R92-13982.B" path="src/platform/graphics" revision="2ad004cf5e59839b3ecce9cbc05e7637c2caed8d" />
-  <extend-project name="chromiumos/graphyte" origRev="refs/heads/release-R92-13982.B" path="src/platform/graphyte" revision="f661990d0379f1030bdaa93c573ef4a50e9c6e66" />
-  <extend-project name="chromiumos/platform/initramfs" origRev="refs/heads/release-R92-13982.B" path="src/platform/initramfs" revision="3ee4a6e643abcf07c55b075b09f44d2a2b08ab38" />
-  <extend-project name="chromiumos/platform/inputcontrol" origRev="refs/heads/release-R92-13982.B" path="src/platform/inputcontrol" revision="6c9fd34b4a6231efc189c530e2f05d908b55185e" />
-  <extend-project name="chromiumos/platform/jabra_vold" origRev="refs/heads/release-R92-13982.B" path="src/platform/jabra_vold" revision="233d517d2904912b207d273794b0ec5343e48010" />
-  <extend-project name="chromiumos/platform/libevdev" origRev="refs/heads/release-R92-13982.B" path="src/platform/libevdev" revision="58e091cd2132dff2283affacba17175964fa45d6" />
-  <extend-project name="chromiumos/platform/libva-fake-driver" origRev="refs/heads/release-R92-13982.B" path="src/platform/libva-fake-driver" revision="7754dd6e00355bb0d7bb5f597b482b6d5ff5cab5" />
-  <extend-project name="chromiumos/platform/lithium" origRev="refs/heads/release-R92-13982.B" path="src/platform/lithium" revision="1b54b0fa69bb183ed19945a79b72bc17145eafe4" />
-  <extend-project name="chromiumos/platform/microbenchmarks" origRev="refs/heads/release-R92-13982.B" path="src/platform/microbenchmarks" revision="a3c495a9f5657c3778e5179d1c1ba073ad26020b" />
-  <extend-project name="chromiumos/platform/minigbm" origRev="refs/heads/release-R92-13982.B" path="src/platform/minigbm" revision="8ed9b31127ce03dbc8b5c8b78b03809af3ca8995" />
-  <extend-project name="chromiumos/platform/mosys" origRev="refs/heads/release-R92-13982.B" path="src/platform/mosys" revision="8b2a2c062be89e22e2c413ce66fd4f2acdb33c88" />
-  <extend-project name="chromiumos/platform/mttools" origRev="refs/heads/release-R92-13982.B" path="src/platform/mttools" revision="f0bf33d8a85c6a9766fb38d0f3b90ebe05ace376" />
-  <extend-project name="chromiumos/platform/ec" origRev="d46e286155693f9cb6bd66f8c2c0bc101f2006ee" path="src/platform/release-firmware/fpmcu-bloonchipper" revision="d46e286155693f9cb6bd66f8c2c0bc101f2006ee" />
-  <extend-project name="chromiumos/platform/ec" origRev="8b63078abb67d76366cd3e01b077188bbcdb20a9" path="src/platform/release-firmware/fpmcu-dartmonkey" revision="8b63078abb67d76366cd3e01b077188bbcdb20a9" />
-  <extend-project name="chromiumos/platform/ec" origRev="8b63078abb67d76366cd3e01b077188bbcdb20a9" path="src/platform/release-firmware/fpmcu-nami" revision="8b63078abb67d76366cd3e01b077188bbcdb20a9" />
-  <extend-project name="chromiumos/platform/ec" origRev="8b63078abb67d76366cd3e01b077188bbcdb20a9" path="src/platform/release-firmware/fpmcu-nocturne" revision="8b63078abb67d76366cd3e01b077188bbcdb20a9" />
-  <extend-project name="chromiumos/platform/tast" origRev="refs/heads/release-R92-13982.B" path="src/platform/tast" revision="9d6640fcd4779dc1874fe3be4ec93417ef0212a7" />
-  <extend-project name="chromiumos/platform/tast-tests" origRev="refs/heads/release-R92-13982.B" path="src/platform/tast-tests" revision="1174d51345d4c6dce4c3ab054f3af7883a6b7f2d" />
-  <extend-project name="chromiumos/platform/fw-testing-configs" origRev="refs/heads/release-R92-13982.B-main" path="src/platform/tast-tests/src/chromiumos/tast/remote/firmware/data/fw-testing-configs" revision="0f398b31a072bddfe053fd8b614d03740a35309b" />
-  <extend-project name="chromiumos/platform/tremplin" origRev="refs/heads/release-R92-13982.B" path="src/platform/tremplin" revision="2b326b63fa912e286beb22370c0828dcc9a8e0f3" />
-  <extend-project name="chromiumos/platform/touch_updater" origRev="refs/heads/release-R92-13982.B" path="src/platform/touch_updater" revision="e6c6217e9de052cd2d6826d2a4ce759f8a925c40" />
-  <extend-project name="chromiumos/platform/touch_firmware_test" origRev="refs/heads/release-R92-13982.B" path="src/platform/touch_firmware_test" revision="ac7cbcdcf6596b06484d39c891d820c65c69736d" />
-  <extend-project name="chromiumos/platform/touchpad-tests" origRev="refs/heads/release-R92-13982.B" path="src/platform/touchpad-tests" revision="4c32bef9592024fe76fb0b8c913add3b1421e2d6" />
-  <extend-project name="chromiumos/platform/tpm_lite" origRev="refs/heads/release-R92-13982.B" path="src/platform/tpm_lite" revision="dd6ae9f3a223c0a8a89a2e4c10600f7700354a53" />
-  <extend-project name="chromiumos/platform/uboot-env" origRev="refs/heads/release-R92-13982.B" path="src/platform/uboot-env" revision="5ad506f38e25df5361f1ec7892e9b4f201590a64" />
-  <extend-project name="chromiumos/platform/usi-test" origRev="refs/heads/release-R92-13982.B" path="src/platform/usi-test" revision="ca7b4b66c18c97e1d7e21b36a9c76239ea0530ef" />
-  <extend-project name="chromiumos/platform/vboot_reference" origRev="refs/heads/release-R92-13982.B" path="src/platform/vboot_reference" revision="b384db34664466386016b03615fe1387aa2d53c7" />
-  <extend-project name="chromiumos/platform/vkbench" origRev="refs/heads/release-R92-13982.B" path="src/platform/vkbench" revision="77a3bbb4f1b187e1a405a2604786a9b65aa8fa5d" />
-  <extend-project name="chromiumos/platform/vpd" origRev="refs/heads/release-R92-13982.B" path="src/platform/vpd" revision="6860a9045b9163afa6601e51eecc3060967d32e9" />
-  <extend-project name="chromiumos/platform/xorg-conf" origRev="refs/heads/release-R92-13982.B" path="src/platform/xorg-conf" revision="76a76f825b6c5cc889cfc812c34b3147672fbc82" />
-  <extend-project name="chromiumos/platform/crosutils" origRev="refs/heads/release-R92-13982.B" path="src/scripts" revision="f7abe57b7ed055b3ef956b0a9ba4724c70eb8a44" />
-  <extend-project name="chromiumos/third_party/adhd" origRev="refs/heads/release-R92-13982.B" path="src/third_party/adhd" revision="013d4485d359f1f70f7d7a0aee757e66c326f995" />
-  <extend-project name="chromiumos/third_party/arm-trusted-firmware" origRev="refs/heads/release-R92-13982.B" path="src/third_party/arm-trusted-firmware" revision="2c62b00e8c4b327165a4bfd874714aa460f3e176" />
-  <extend-project name="chromiumos/third_party/apitrace" origRev="refs/heads/release-R92-13982.B-master" path="src/third_party/apitrace" revision="34921b26ab9eb6b05bdc1ea57c31acaaaac99c12" />
-  <extend-project name="chromiumos/third_party/atrusctl" origRev="refs/heads/release-R92-13982.B" path="src/third_party/atrusctl" revision="8488a85840ece78edc8d07e0801d4642d02a405c" />
-  <extend-project name="chromiumos/third_party/autotest" origRev="refs/heads/release-R92-13982.B" path="src/third_party/autotest/files" revision="5e8439ef9884fa3d23f45ff1ff85efd1d9d36b49" />
-  <extend-project name="chromiumos/third_party/labpack" origRev="refs/heads/release-R92-13982.B" path="src/third_party/labpack/files" revision="4629acf1ad1a784ecaf8da7bb0124893d4f85189" />
-  <extend-project name="chromiumos/platform/fw-testing-configs" origRev="refs/heads/release-R92-13982.B-main" path="src/third_party/autotest/files/server/cros/faft/fw-testing-configs" revision="0f398b31a072bddfe053fd8b614d03740a35309b" />
-  <extend-project name="chromiumos/third_party/aver-updater" origRev="refs/heads/release-R92-13982.B" path="src/third_party/aver-updater" revision="6e643d64f634f83f3ba7233f4fb4869e38a306e5" />
-  <extend-project name="chromiumos/third_party/fastrpc" origRev="refs/heads/release-R92-13982.B" path="src/third_party/fastrpc" revision="c2d1cdc0fb781ee673077c5d4b243eb239c73bb5" />
-  <extend-project name="chromiumos/third_party/libiio" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libiio" revision="213eca340c157b96232242da15539e12efb2d5c9" />
-  <extend-project name="chromiumos/third_party/bluez" origRev="refs/heads/release-R92-13982.B-chromeos-5.54" path="src/third_party/bluez/current" revision="854eb97f8ee31d7c9dc857a04d68bd3b02669dde" />
-  <extend-project name="chromiumos/third_party/bluez" origRev="refs/heads/release-R92-13982.B-chromeos-5.54" path="src/third_party/bluez/next" revision="854eb97f8ee31d7c9dc857a04d68bd3b02669dde" />
-  <extend-project name="chromiumos/third_party/bluez" origRev="d9fdbedf0ee3a5981e2d83d85b547b7750303acb" path="src/third_party/bluez/upstream" revision="d9fdbedf0ee3a5981e2d83d85b547b7750303acb" />
-  <extend-project name="chromiumos/third_party/bootstub" origRev="refs/heads/release-R92-13982.B" path="src/third_party/bootstub" revision="076cb8e624d2f9d8ab75fc07f614e3c1288e0b2e" />
-  <extend-project name="breakpad/breakpad" origRev="fe5025b7f10a16ad13cb218dd8f112a83677cfe6" path="src/third_party/breakpad" revision="fe5025b7f10a16ad13cb218dd8f112a83677cfe6" />
-  <extend-project name="linux-syscall-support" origRev="fd00dbbd0c06a309c657d89e9430143b179ff6db" path="src/third_party/breakpad/src/third_party/lss" revision="fd00dbbd0c06a309c657d89e9430143b179ff6db" />
-  <extend-project name="chromiumos/third_party/cbootimage" origRev="refs/heads/release-R92-13982.B" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" />
-  <extend-project name="chromiumos/overlays/chromiumos-overlay" origRev="refs/heads/release-R92-13982.B" path="src/third_party/chromiumos-overlay" revision="refs/heads/release-R92-13982.B-fydeos" />
-  <extend-project name="chromiumos/third_party/coreboot" origRev="refs/heads/release-R92-13982.B" path="src/third_party/coreboot" revision="cf8d2363353cb96698c45ba181ca62143f991451" />
-  <extend-project name="chromiumos/third_party/coreboot/qc_blobs" origRev="refs/heads/release-R92-13982.B" path="src/third_party/coreboot/3rdparty/qc_blobs" revision="053eb2ab5f89a8e2b2077fd70c9ae7ff945e440e" />
-  <extend-project name="chromiumos/third_party/coreboot/amd_blobs" origRev="refs/heads/release-R92-13982.B" path="src/third_party/coreboot/3rdparty/amd_blobs" revision="7874c7d3cebc0ebca57875e24911ddd55aec9711" />
-  <extend-project name="chromiumos/third_party/coreboot/blobs" origRev="refs/heads/release-R92-13982.B" path="src/third_party/coreboot/3rdparty/blobs" revision="5efb89b0560b2828b8b84acd94561d01475afee2" />
-  <extend-project name="chromiumos/third_party/coreboot/intel-microcode" origRev="refs/heads/release-R92-13982.B" path="src/third_party/coreboot/3rdparty/intel-microcode" revision="ee319ae7bc59e88b60142f40a9ec1b46656de4db" />
-  <extend-project name="chromiumos/third_party/cros-adapta" origRev="refs/heads/release-R92-13982.B" path="src/third_party/cros-adapta" revision="eb6d8c1832b9181926df107faf41a80887fd982c" />
-  <extend-project name="chromiumos/third_party/cryptoc" origRev="refs/heads/release-R92-13982.B" path="src/third_party/cryptoc" revision="3830fffbc5c5205bb8fb1b9f366fe44559923592" />
-  <extend-project name="chromiumos/third_party/cups" origRev="refs/heads/release-R92-13982.B" path="src/third_party/cups" revision="5b2bb36c95cfdd681d695a41e5fad4fa8a517f55" />
-  <extend-project name="chromiumos/third_party/daisydog" origRev="refs/heads/release-R92-13982.B" path="src/third_party/daisydog" revision="387aa374551913374e9fac1b7bd1ffec896d5f72" />
-  <extend-project name="chromiumos/overlays/eclass-overlay" origRev="refs/heads/release-R92-13982.B" path="src/third_party/eclass-overlay" revision="06b7a1a98bb89d569e9f4e24fa39eb3de9556c03" />
-  <extend-project name="chromiumos/third_party/edk2" origRev="refs/heads/release-R92-13982.B-chromeos-2017.08" path="src/third_party/edk2" revision="282203eb87cd384171690356a0771f1e09aa2c68" />
-  <extend-project name="chromiumos/third_party/em100" origRev="refs/heads/release-R92-13982.B" path="src/third_party/em100" revision="ae88135ac22f2255299fbf15ff28186458afe4e1" />
-  <extend-project name="chromiumos/third_party/flashmap" origRev="refs/heads/release-R92-13982.B" path="src/third_party/flashmap" revision="2f7b2e16f588dde75a0c9c28175f16b8cb9e11dc" />
-  <extend-project name="chromiumos/third_party/flashrom" origRev="refs/heads/release-R92-13982.B" path="src/third_party/flashrom" revision="997da5827fbd4758f4124c7c27dba5ef5772a91f" />
-  <extend-project name="chromiumos/third_party/edk2" origRev="refs/heads/release-R92-13982.B-chromeos-cml-branch1" path="src/third_party/fsp/cml/edk2/branch1" revision="264551f027e80cd73a4554b431043ff29c6685a8" />
-  <extend-project name="chromiumos/third_party/edk2" origRev="refs/heads/release-R92-13982.B-chromeos-cnl" path="src/third_party/fsp/cnl/edk2" revision="633eecd755a7df84d690fa522b05016a69a1be66" />
-  <extend-project name="chromiumos/third_party/edk2" origRev="refs/heads/release-R92-13982.B-chromeos-glk" path="src/third_party/fsp/glk/edk2" revision="ec95ee8c2d55a69b4b5e8b681a1e246dfa4cc9ba" />
-  <extend-project name="chromiumos/third_party/fwupd" origRev="refs/heads/release-R92-13982.B" path="src/third_party/fwupd" revision="af56c3b4da7433fa7ede8361c26c8f07e655e785" />
-  <extend-project name="chromiumos/third_party/hdctools" origRev="refs/heads/release-R92-13982.B" path="src/third_party/hdctools" revision="d332630ff3df167564508e72b0c71bee1fee6b4b" />
-  <extend-project name="chromiumos/third_party/huddly-updater" origRev="refs/heads/release-R92-13982.B" path="src/third_party/huddly-updater" revision="8622a0d971b16620ca2e4e35dc44a4715a6993f4" />
-  <extend-project name="chromiumos/third_party/igt-gpu-tools" origRev="refs/heads/release-R92-13982.B" path="src/third_party/igt-gpu-tools" revision="870601e7fb4aa8dcb118fd99833d07ce3dd2ea88" />
-  <extend-project name="chromiumos/third_party/intel-wifi-fw-dump" origRev="refs/heads/release-R92-13982.B" path="src/third_party/intel-wifi-fw-dump" revision="c37a35ed64538beeb8240c19db85bce29ef6e534" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-3.18" path="src/third_party/kernel/v3.18" revision="3a754c2513f47ad7fe08c95e28d43aa563062576" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-4.4" path="src/third_party/kernel/v4.4" revision="cb85bd3a0149453695d3620c99002142867d6d95" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-4.14" path="src/third_party/kernel/v4.14" revision="dfbdec1b1a0bb6fb27697f24c876dd3a93478109" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-4.14-gw" path="src/third_party/kernel/v4.14-gw" revision="2bb8fccd2d65bc85d95912def6334a56503b14e4" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-4.19" path="src/third_party/kernel/v4.19" revision="9abe9eac8155b852202ca908fd00895f71b1c139" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-4.19-ht" path="src/third_party/kernel/v4.19-ht" revision="32c067a0e895f8d2e65c56ef4c43da87f00394dd" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-4.19-manatee" path="src/third_party/kernel/v4.19-manatee" revision="7a693e957167215fab90a62bdc418cc2ab921074" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-5.4" path="src/third_party/kernel/v5.4" revision="b4045c8e4b26a192e401f6fca6dda5de9f4759f0" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-5.4-manatee" path="src/third_party/kernel/v5.4-manatee" revision="b0fcb811fd9c0bee9feadccfda27ff80049a6534" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-5.4-arcvm" path="src/third_party/kernel/v5.4-arcvm" revision="57a2cfb00afa00214b8b4c6d14f052c06154b8a4" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-5.10-arcvm" path="src/third_party/kernel/v5.10-arcvm" revision="bc6ca71187d63b327f639d45255d0f5804109a05" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-5.10" path="src/third_party/kernel/v5.10" revision="98f3e3c9112dc1b9686197d24d9a5cc5ca17e6cd" />
-  <extend-project name="chromiumos/third_party/khronos" origRev="refs/heads/release-R92-13982.B" path="src/third_party/khronos" revision="4a356c345ed897adfe2936ae2e6119a46bcd43b8" />
-  <extend-project name="chromiumos/third_party/lexmark-fax-pnh" origRev="refs/heads/release-R92-13982.B" path="src/third_party/lexmark-fax-pnh" revision="f131d8f851366e6a2f8e8fa8f3042285d021d6c6" />
-  <extend-project name="apps/libapps" origRev="179cf25b6b69213df158e6b2c8b3d56df93486a0" path="src/third_party/libapps" revision="179cf25b6b69213df158e6b2c8b3d56df93486a0" />
-  <extend-project name="chromiumos/third_party/libcamera" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libcamera" revision="e56f1f493560e0b641bbe36a528a13767817afed" />
-  <extend-project name="chromiumos/third_party/libdrm" origRev="refs/heads/release-R92-13982.B-master" path="src/third_party/libdrm" revision="728dfa9dbeeb013e5a26c24f4372a16eace99c5e" />
-  <extend-project name="chromiumos/third_party/libmbim" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libmbim" revision="3503ff00c38c053d545134cee1257381b79f0eb0" />
-  <extend-project name="chromiumos/third_party/libqmi" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libqmi" revision="d9def40a2e068fd7e961aa0a4c699cf62cb8672c" />
-  <extend-project name="chromiumos/third_party/libqrtr" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libqrtr" revision="ba87335b33afcc0c1e0860ed41d0a98abc804184" />
-  <extend-project name="chromiumos/third_party/libqrtr-glib" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libqrtr-glib" revision="d1de0242c237825719a69b97c6059f3151831e81" />
-  <extend-project name="chromiumos/third_party/libsigrok" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libsigrok" revision="199fe31115c76231746f5953271795d58679561c" />
-  <extend-project name="chromiumos/third_party/libsigrokdecode" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libsigrokdecode" revision="3279c2825684c7009775b731d0a9e37815778282" />
-  <extend-project name="chromiumos/third_party/libtextclassifier" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libtextclassifier" revision="01652c17e116baa8ebd7083e8cbc3dede513ac9e" />
-  <extend-project name="chromiumos/third_party/libv4lplugins" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libv4lplugins" revision="679c8ed2cda9048369264127d210a0c3eb64f500" />
-  <extend-project name="chromiumos/third_party/linux-firmware" origRev="refs/heads/release-R92-13982.B" path="src/third_party/linux-firmware" revision="539b18cdb120697cb108d3caff95d36a00f148ff" />
-  <extend-project name="chromiumos/third_party/logitech-updater" origRev="refs/heads/release-R92-13982.B" path="src/third_party/logitech-updater" revision="20c6b09f3c48cdabff14c386d90135dfe45a4b99" />
-  <extend-project name="chromiumos/third_party/marvell" origRev="refs/heads/release-R92-13982.B" path="src/third_party/marvell" revision="aa5b8ef66e65d81f660258bf9babc1abc7511e3c" />
-  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R92-13982.B-master" path="src/third_party/mesa" revision="816ec3ecb4667a509c4ded1972151c00907f7f5d" />
-  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R92-13982.B-chromeos-amd" path="src/third_party/mesa-amd" revision="9fc5ee58de44223e9f92064ad0f547302d1db55f" />
-  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R92-13982.B-debian" path="src/third_party/mesa-debian" revision="c36b89b82bcd270e1f9ee7d0824c9e265a39e95b" />
-  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R92-13982.B-chromeos-freedreno" path="src/third_party/mesa-freedreno" revision="267524b3edc38bf559e34570d4d793b22c090582" />
-  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R92-13982.B-chromeos-iris" path="src/third_party/mesa-iris" revision="6c5059cab0e94f0753201a8776fdadaf8f93f036" />
-  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R92-13982.B-mesa-19.0" path="src/third_party/mesa-img" revision="2e7833ad916c493969d00871cdf56db4407b80eb" />
-  <extend-project name="chromiumos/third_party/mimo-updater" origRev="refs/heads/release-R92-13982.B" path="src/third_party/mimo-updater" revision="fb448bbd2986c743f3c37dbc784ae972e24b1a23" />
-  <extend-project name="aosp/platform/external/modp_b64" origRev="refs/heads/release-R92-13982.B" path="src/third_party/modp_b64" revision="269b6fb8401617b85e2dff7ae8a7b0f97613e2cd" />
-  <extend-project name="chromiumos/third_party/mmc-utils" origRev="refs/heads/release-R92-13982.B" path="src/third_party/mmc-utils" revision="7be960e2b84b5dfcbec44d3b722fb02d16b9eaf1" />
-  <extend-project name="chromiumos/third_party/modemmanager-next" origRev="refs/heads/release-R92-13982.B" path="src/third_party/modemmanager-next" revision="977f50cdf476be26c1e88eace25ea0b1955cc5ab" />
-  <extend-project name="chromiumos/third_party/novatek-tcon-fw-update-tool" origRev="refs/heads/release-R92-13982.B" path="src/third_party/novatek-tcon-fw-update-tool" revision="a78b7b0ba128471af835e44dc97698d39fd89bbf" />
-  <extend-project name="chromiumos/third_party/poly-updater" origRev="refs/heads/release-R92-13982.B" path="src/third_party/poly-updater" revision="87ad2edeea039892515f68c948bc2b8f94999553" />
-  <extend-project name="chromiumos/overlays/portage-stable" origRev="refs/heads/release-R92-13982.B" path="src/third_party/portage-stable" revision="bbad150db8ba002f46b848ec7e9e1e8970b1fb33" />
-  <extend-project name="chromiumos/third_party/portage_tool" origRev="refs/heads/release-R92-13982.B" path="src/third_party/portage_tool" revision="2dfb7012b08e9ab94722ac1be3b4c22ddcc6b9b7" />
-  <extend-project name="chromiumos/third_party/qemu" origRev="refs/heads/release-R92-13982.B" path="src/third_party/qemu" revision="fdd76fecdde1ad444ff4deb7f1c4f7e4a1ef97d6" />
-  <extend-project name="chromiumos/third_party/rootdev" origRev="refs/heads/release-R92-13982.B" path="src/third_party/rootdev" revision="b2f37be7c25bc83b76f1b7063a4ef38b824dc4ef" />
-  <extend-project name="chromiumos/third_party/rust-vmm/vhost" origRev="refs/heads/release-R92-13982.B" path="src/third_party/rust-vmm/vhost" revision="eaca5d36a2701c99b354ab5bc0954a78dfc9ff4f" />
-  <extend-project name="chromiumos/third_party/seabios" origRev="refs/heads/release-R92-13982.B" path="src/third_party/seabios" revision="27b56c6e94fe37e9308392fefd25ba641d8be496" />
-  <extend-project name="chromiumos/third_party/libsigrok-cli" origRev="refs/heads/release-R92-13982.B" path="src/third_party/sigrok-cli" revision="c9edfa218e5a5972531b6f4a3ece8d33a44ae1b5" />
-  <extend-project name="chromiumos/third_party/sis-updater" origRev="refs/heads/release-R92-13982.B" path="src/third_party/sis-updater" revision="38bf335dc6376bab3d77bc1023c713e47de308db" />
-  <extend-project name="chromiumos/third_party/sound-open-firmware" origRev="refs/heads/release-R92-13982.B" path="src/third_party/sound-open-firmware" revision="35691bd4813b901c78ab938a4ec8bcc7fcb7f35f" />
-  <extend-project name="chromiumos/third_party/sysbios" origRev="refs/heads/release-R92-13982.B" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" />
-  <extend-project name="chromiumos/third_party/systemd" origRev="refs/heads/release-R92-13982.B" path="src/third_party/systemd" revision="be2ed6c3b67e544ae17fd90776f5331abd02b1c9" />
-  <extend-project name="chromiumos/third_party/tlsdate" origRev="refs/heads/release-R92-13982.B" path="src/third_party/tlsdate" revision="95e4d2c2a0f5c66d5c191d28b7e09ca9d0376cab" />
-  <extend-project name="chromiumos/third_party/toolchain-utils" origRev="refs/heads/release-R92-13982.B" path="src/third_party/toolchain-utils" revision="c2706e7ba7f2fe84e62b55aaf0145b4944a5233a" />
-  <extend-project name="chromiumos/platform/tpm" origRev="refs/heads/release-R92-13982.B" path="src/third_party/tpm" revision="8afebd60c77201ab9eac6e049e4576ed26c6d600" />
-  <extend-project name="chromiumos/third_party/tpm2" origRev="refs/heads/release-R92-13982.B" path="src/third_party/tpm2" revision="37335af9c5488ed349271a8ba9ff209c940a5e2c" />
-  <extend-project name="chromiumos/third_party/trousers" origRev="refs/heads/release-R92-13982.B" path="src/third_party/trousers" revision="ab6e9c4b4a798bc99d7c9dee51f453c293ee14fa" />
-  <extend-project name="chromiumos/third_party/u-boot" origRev="refs/heads/release-R92-13982.B" path="src/third_party/u-boot/files" revision="22fca97af0cd882e9cc4a938f3e83c7089290740" />
-  <extend-project name="chromiumos/third_party/upstart" origRev="refs/heads/release-R92-13982.B" path="src/third_party/upstart" revision="0dda6d8f285760b12fb2696e9f7b8975702ec5cb" />
-  <extend-project name="chromiumos/third_party/virglrenderer" origRev="refs/heads/release-R92-13982.B" path="src/third_party/virglrenderer" revision="4405172812f77e17e60037aca112d742b68eab29" />
-  <extend-project name="chromiumos/third_party/webrtc-apm" origRev="refs/heads/release-R92-13982.B" path="src/third_party/webrtc-apm" revision="b29aa58066487076f7fde3b817a00b8f2eaf05a5" />
-  <extend-project name="chromiumos/third_party/hostap" origRev="refs/heads/release-R92-13982.B-master" path="src/third_party/wpa_supplicant" revision="c297db6ffd38d6694fe5f8b04b55aa74e00e9c77" />
-  <extend-project name="chromiumos/third_party/Wi-FiTestSuite-Linux-DUT" origRev="refs/heads/release-R92-13982.B" path="src/third_party/Wi-FiTestSuite-Linux-DUT" revision="afe5b18c1b33f03169779851369c8c4ab0bb941d" />
-  <extend-project name="chromiumos/third_party/hostap" origRev="refs/heads/release-R92-13982.B-wpa_supplicant-2.9" path="src/third_party/wpa_supplicant-2.9" revision="bc0d52208f19610f7a2f0c31b949cf6002034134" />
-  <extend-project name="chromiumos/third_party/virtual-usb-printer" origRev="refs/heads/release-R92-13982.B" path="src/third_party/virtual-usb-printer" revision="6a5113509b7947fffb9a59da87df0217a7620f9c" />
-  <extend-project name="external/git.kernel.org/fs/xfs/xfstests-dev" origRev="33bcdb836aeb9337178d9370e5196bc7910b8d41" path="src/third_party/xfstests" revision="33bcdb836aeb9337178d9370e5196bc7910b8d41" />
-  <extend-project name="chromiumos/third_party/shellcheck" origRev="refs/heads/release-R92-13982.B" path="src/third_party/shellcheck" revision="9b0d715ebcf37ceb7a3ac5278a3550366d05e417" />
-  <extend-project name="chromiumos/third_party/zephyr" origRev="refs/heads/release-R92-13982.B" path="src/third_party/zephyr/main/v2.5" revision="58b38fe66d378d2ce5ce887f54f0262b0f818788" />
-  <extend-project name="chromiumos/third_party/zephyr/cmsis" origRev="refs/heads/release-R92-13982.B" path="src/third_party/zephyr/cmsis/v2.5" revision="c3bd2094f92d574377f7af2aec147ae181aa5f8e" />
-  <extend-project name="chromiumos/third_party/zephyr/hal_stm32" origRev="refs/heads/release-R92-13982.B" path="src/third_party/zephyr/hal_stm32/v2.5" revision="8eb12e4466cc73f2a95292073832878814b8ed31" />
-  <extend-project name="weave/libweave" origRev="bf5379935ba14d3ab0538ac77c69011d1b34de12" path="src/weave/libweave" revision="bf5379935ba14d3ab0538ac77c69011d1b34de12" />
-  <extend-project name="chromium/tools/depot_tools" origRev="75c9832409cf3cc46fc1ed6783f9c294f77d2bb4" path="src/chromium/depot_tools" revision="refs/heads/fydeos_r92" />
-  <extend-project name="chromium/src/buildtools" origRev="b9af93e79fee9a13ec3d09d144ec42a6bd20a418" path="src/chromium/src/buildtools" revision="b9af93e79fee9a13ec3d09d144ec42a6bd20a418" />
-  <extend-project name="chromium/llvm-project/cfe/tools/clang-format" origRev="bb994c6f067340c1135eb43eed84f4b33cfa7397" path="src/chromium/src/buildtools/clang_format/script" revision="bb994c6f067340c1135eb43eed84f4b33cfa7397" />
-  <extend-project name="chromium/src/third_party/Python-Markdown" origRev="2bb7b23b6398f9e79bc2fa8c6bc64a3cf1613ebf" path="src/chromium/src/third_party/Python-Markdown" revision="2bb7b23b6398f9e79bc2fa8c6bc64a3cf1613ebf" />
-  <extend-project name="chromium/src/tools/md_browser" origRev="60141af3603925d99bf3fb22fdfca138416339b1" path="src/chromium/src/tools/md_browser" revision="60141af3603925d99bf3fb22fdfca138416339b1" />
-  <extend-project name="platform/external/bsdiff" origRev="be81a990b3e1b1827602cf0fd23c5b55dce3a4de" path="src/aosp/external/bsdiff" revision="be81a990b3e1b1827602cf0fd23c5b55dce3a4de" />
-  <extend-project name="platform/external/puffin" origRev="d51726bde3cac59456126b86eb52d43035e4b245" path="src/aosp/external/puffin" revision="d51726bde3cac59456126b86eb52d43035e4b245" />
-  <extend-project name="platform/system/keymaster" origRev="49dfc58d6c4c66f5d0b0d06f0161da4e602a1293" path="src/aosp/system/keymaster" revision="49dfc58d6c4c66f5d0b0d06f0161da4e602a1293" />
-  <extend-project name="chromiumos/manifest" origRev="refs/heads/release-R92-13982.B" path="manifest" revision="755c999b1481e1c7e51fc03e9b934e7b25987700" />
+  <include name="local_manifests/remotes.xml" />
+  <extend-project name="chromiumos/repohooks" origRev="refs/heads/release-R92-13982.B" path="src/repohooks" remote="openfyde_cros" revision="e2402c280fa4b796ae695e1b8fb3b190cd3f88c5" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="8089665c29b8ffac628e06909bad8fbc6a22dfaa" path="src/third_party/kernel/upstream" remote="openfyde_cros" revision="8089665c29b8ffac628e06909bad8fbc6a22dfaa" />
+  <extend-project name="chromiumos/config" origRev="refs/heads/release-R92-13982.B" path="src/config" remote="openfyde_cros" revision="cc65921aa6c050a31fd0060f9c9f0aa8b59ca9a3" />
+  <extend-project name="chromiumos/project" origRev="refs/heads/release-R92-13982.B" path="src/project_public" remote="openfyde_cros" revision="dfa475fdc80db6f8ac2bac85332195d84ac749c9" />
+  <extend-project name="chromiumos/docs" origRev="refs/heads/release-R92-13982.B" path="docs" remote="openfyde_cros" revision="eba68b5ef0b28ea200045f94ee98cac5282cdc7d" />
+  <extend-project name="chromiumos/infra_virtualenv" origRev="refs/heads/release-R92-13982.B" path="infra_virtualenv" remote="openfyde_cros" revision="cab8a95f2961561eb56a95d6f2bfc685686db75a" />
+  <extend-project name="chromiumos/chromite" origRev="refs/heads/release-R92-13982.B" path="chromite" remote="openfyde_cros" revision="de6816879a94bb8ef78baf8fd2ffc690078d818c" />
+  <extend-project name="chromiumos/chromite" origRev="refs/heads/main" path="infra/chromite-HEAD" remote="openfyde_cros" revision="add726f194ed9da7a7e266ab0c50ea0a956c5291" />
+  <extend-project name="chromiumos/infra/proto" origRev="refs/heads/release-R92-13982.B" path="chromite/infra/proto" remote="openfyde_cros" revision="bdfd05fe5d11d0541917d5ec3e4f80b8b12fb22b" />
+  <extend-project name="chromiumos/infra/proto" origRev="refs/heads/main" path="infra/proto" remote="openfyde_cros" revision="dfb6fe0748665c5f092ff11a7fd96075b00b5dab" />
+  <extend-project name="chromiumos/infra/ci_results_archiver" origRev="refs/heads/main" path="infra/ci_results_archiver" remote="openfyde_cros" revision="e6522e93bc7107bf5caa655806aceeef3fe83354" />
+  <extend-project name="chromiumos/infra/go" origRev="refs/heads/main" path="infra/go" remote="openfyde_cros" revision="6eadc22e734e94376e053926fb56729094b36adc" />
+  <extend-project name="chromiumos/infra/lucifer" origRev="refs/heads/release-R92-13982.B" path="infra/lucifer" remote="openfyde_cros" revision="309fdc2b23d83e0d2d18ba0468e6ce6d4adffe49" />
+  <extend-project name="chromiumos/infra/recipes" origRev="refs/heads/main" path="infra/recipes" remote="openfyde_cros" revision="e95984b36fd993e69c9740cd3c5fa3317dca313e" />
+  <extend-project name="chromiumos/infra/suite_scheduler" origRev="refs/heads/main" path="infra/suite_scheduler" remote="openfyde_cros" revision="5f374c4bd31e168663c338ba10695f399a4f1a8f" />
+  <extend-project name="chromiumos/infra/test_analyzer" origRev="refs/heads/release-R92-13982.B" path="infra/test_analyzer" remote="openfyde_cros" revision="14119cc21c146544791fe387f64a4b809c4ea789" />
+  <extend-project name="chromiumos/infra/tnull" origRev="refs/heads/release-R92-13982.B" path="infra/tnull" remote="openfyde_cros" revision="cd73092111d0cc708e5957759bc75afb702fdd3c" />
+  <extend-project name="chromiumos/third_party/pyelftools" origRev="refs/heads/release-R92-13982.B" path="chromite/third_party/pyelftools" remote="openfyde_cros" revision="0890b98431a9b2e637c18f719232d06a4e5c3cd8" />
+  <extend-project name="infra/luci/client-py" origRev="34b20305c7a69eb89e1abd5e2a94708db999f0a9" path="chromite/third_party/swarming.client" remote="openfyde_chromium" revision="34b20305c7a69eb89e1abd5e2a94708db999f0a9" />
+  <extend-project name="chromiumos/infra/build/empty-project" origRev="3a01873e59ec25ecb10d1b07ff9816e69f3bbfee" path="src/platform/empty-project" remote="openfyde_cros" revision="3a01873e59ec25ecb10d1b07ff9816e69f3bbfee" />
+  <extend-project name="aosp/platform/external/libchrome" origRev="refs/heads/release-R92-13982.B" path="src/aosp/external/libchrome" remote="openfyde_cros" revision="e8446fb798096e3ac940dd43fa1eb68bf2a11a09" />
+  <extend-project name="aosp/platform/external/libutf" origRev="refs/heads/release-R92-13982.B" path="src/aosp/external/libutf" remote="openfyde_cros" revision="c17bb435be940edf1aff81469215bb6a071f3c38" />
+  <extend-project name="platform/external/minijail" origRev="b06ce9b6f7303c4fca92e9eea08588c967cad9e0" path="src/aosp/external/minijail" remote="openfyde_aosp" revision="b06ce9b6f7303c4fca92e9eea08588c967cad9e0" />
+  <extend-project name="aosp/platform/frameworks/ml" origRev="refs/heads/release-R92-13982.B" path="src/aosp/frameworks/ml" remote="openfyde_cros" revision="9393e8e433ae9255eec4de65671364d363ca6657" />
+  <extend-project name="aosp/platform/frameworks/native" origRev="refs/heads/release-R92-13982.B" path="src/aosp/frameworks/native" remote="openfyde_cros" revision="23e2bf511667b4fa5859812a4e7945c8638f6603" />
+  <extend-project name="aosp/platform/hardware/interfaces/neuralnetworks" origRev="refs/heads/release-R92-13982.B" path="src/aosp/hardware/interfaces/neuralnetworks" remote="openfyde_cros" revision="fd0a01eb09dcc34f1a42e5c0f6ebf0f384fd9abd" />
+  <extend-project name="aosp/platform/system/core/base" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/core/base" remote="openfyde_cros" revision="8cf6479cfd925657da51da04902a68dfe7e84632" />
+  <extend-project name="aosp/platform/system/core/libbacktrace" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/core/libbacktrace" remote="openfyde_cros" revision="d67ee5af5ee2790631aa4f7ca125d12c09840436" />
+  <extend-project name="aosp/platform/system/core/libcutils" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/core/libcutils" remote="openfyde_cros" revision="f0d85f116fd745ed927bca0102a1040629e528c9" />
+  <extend-project name="aosp/platform/system/core/liblog" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/core/liblog" remote="openfyde_cros" revision="9cca7081cb7d158034bffec841f227af52cca401" />
+  <extend-project name="aosp/platform/system/core/libutils" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/core/libutils" remote="openfyde_cros" revision="c92d0857816b8694a74ba1a47b754563d4452f65" />
+  <extend-project name="aosp/platform/system/libbase" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/libbase" remote="openfyde_cros" revision="b7f8cf0f0beab62bc5a391226ebd835c2fe377dc" />
+  <extend-project name="aosp/platform/system/libfmq" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/libfmq" remote="openfyde_cros" revision="8e369832671de86e05cbbd3eeb7ddfe7df95f1ec" />
+  <extend-project name="aosp/platform/system/libhidl" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/libhidl" remote="openfyde_cros" revision="6b79fa280312109216ce8b3a4893f266775cddc2" />
+  <extend-project name="aosp/platform/system/core/libsync" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/libsync" remote="openfyde_cros" revision="05807ab5b35a7c413516bae73d496de1360e9ae9" />
+  <extend-project name="aosp/platform/system/logging" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/logging" remote="openfyde_cros" revision="e386a40d816e794c12040936608d252ab96077a7" />
+  <extend-project name="aosp/platform/system/update_engine" origRev="refs/heads/release-R92-13982.B" path="src/aosp/system/update_engine" remote="openfyde_cros" revision="7ae3c1b19a665782f5cbbe7246be36d8fe6067ac" />
+  <extend-project name="chromiumos/overlays/board-overlays" origRev="refs/heads/release-R92-13982.B" path="src/overlays" remote="openfyde_cros" revision="0331c8d0a83500c9483a2dc2191b36d36717556b" />
+  <extend-project name="chromiumos/platform2" origRev="refs/heads/release-R92-13982.B" path="src/platform2" remote="openfyde_cros" revision="c2d16b592cf6bf28dea71bf9f2d1e4274668822f" />
+  <extend-project name="chromiumos/platform/experimental" origRev="refs/heads/release-R92-13982.B" path="src/platform/experimental" remote="openfyde_cros" revision="2927fce20adf74b0c9a32a61e3edff894221f283" />
+  <extend-project name="chromiumos/platform/assets" origRev="refs/heads/release-R92-13982.B" path="src/platform/assets" remote="openfyde_cros" revision="263e788d0bafc30b06ed78befe90dbe27daddd14" />
+  <extend-project name="chromiumos/platform/audiotest" origRev="refs/heads/release-R92-13982.B" path="src/platform/audiotest" remote="openfyde_cros" revision="aa0a03dcbb3ce57083768bfe3914e68b5c100e36" />
+  <extend-project name="chromiumos/platform/bisect-kit" origRev="refs/heads/release-R92-13982.B" path="src/platform/bisect-kit" remote="openfyde_cros" revision="3472032ec2ac3fd08d6ab8d84ebc1500379824c7" />
+  <extend-project name="chromiumos/platform/bmpblk" origRev="refs/heads/release-R92-13982.B" path="src/platform/bmpblk" remote="openfyde_cros" revision="986dd8a50a1e90f64620da0745b026a363865b78" />
+  <extend-project name="chromiumos/platform/btsocket" origRev="refs/heads/release-R92-13982.B" path="src/platform/btsocket" remote="openfyde_cros" revision="e1cb3b9c86ec37b742be1b59ee973e0eea35d2e3" />
+  <extend-project name="chromiumos/platform/camera" origRev="refs/heads/release-R92-13982.B" path="src/platform/camera" remote="openfyde_cros" revision="6c9eb270968c9c1d216cf94c180e3cf8bd545234" />
+  <extend-project name="chromiumos/platform/cbor" origRev="refs/heads/release-R92-13982.B" path="src/platform/cbor" remote="openfyde_cros" revision="6d5abcafdfda3c78f64cb242c8d7e8076c5af451" />
+  <extend-project name="chromiumos/platform/cfm-device-monitor" origRev="refs/heads/release-R92-13982.B" path="src/platform/cfm-device-monitor" remote="openfyde_cros" revision="926b49b3aa439de1b10c58e38591a86eaa18a40d" />
+  <extend-project name="chromiumos/platform/chameleon" origRev="refs/heads/release-R92-13982.B" path="src/platform/chameleon" remote="openfyde_cros" revision="8b872a709aa95e6e545bbda99e3280fd086b3d20" />
+  <extend-project name="chromiumos/platform/chromiumos-assets" origRev="refs/heads/release-R92-13982.B" path="src/platform/chromiumos-assets" remote="openfyde_cros" revision="5037962d61e241aecbd1ba695cc984cd64a8fff7" />
+  <extend-project name="chromiumos/platform/cobble" origRev="refs/heads/release-R92-13982.B" path="src/platform/cobble" remote="openfyde_cros" revision="4ab43f1f86b7099b8ad75cf9615ea1fa155bbd7d" />
+  <extend-project name="chromiumos/containers/cros-container-guest-tools" origRev="refs/heads/release-R92-13982.B" path="src/platform/container-guest-tools" remote="openfyde_cros" revision="216f2f5fb1f8e4c3003afabf746486b5c1dad589" />
+  <extend-project name="chromiumos/platform/ec" origRev="refs/heads/release-R92-13982.B-cr50_stab" path="src/platform/cr50" remote="openfyde_cros" revision="5c11d1e8b7e016fa782d7f627b348e608ab48a4f" />
+  <extend-project name="chromiumos/platform/crostestutils" origRev="refs/heads/release-R92-13982.B" path="src/platform/crostestutils" remote="openfyde_cros" revision="c306e290b02c6d8dfb7aa9e0d5202d976ede7532" />
+  <extend-project name="chromiumos/platform/crosvm" origRev="refs/heads/release-R92-13982.B" path="src/platform/crosvm" remote="openfyde_cros" revision="610cbfc17c7c36701211e20fd0f34351c1b53ccf" />
+  <extend-project name="chromiumos/platform/depthcharge" origRev="refs/heads/release-R92-13982.B" path="src/platform/depthcharge" remote="openfyde_cros" revision="039618675399c1bad7fe797813e0202d51895488" />
+  <extend-project name="chromiumos/platform/dev-util" origRev="refs/heads/release-R92-13982.B" path="src/platform/dev" remote="openfyde_cros" revision="1c3bc92c80b93dcebff0f0212e8b302facf0d502" />
+  <extend-project name="chromiumos/platform/drm-tests" origRev="refs/heads/release-R92-13982.B" path="src/platform/drm-tests" remote="openfyde_cros" revision="8d4eef3da588ce1156c2210de022777aeb9f18e3" />
+  <extend-project name="chromiumos/platform/ec" origRev="refs/heads/release-R92-13982.B-main" path="src/platform/ec" remote="openfyde_cros" revision="c479001f232c15aa918cfd1a39cc0faf741d9c81" />
+  <extend-project name="chromiumos/platform/factory" origRev="refs/heads/release-R92-13982.B" path="src/platform/factory" remote="openfyde_cros" revision="d0be6150440df62eddbff84b4e850e757c68c3aa" />
+  <extend-project name="chromiumos/platform/factory_installer" origRev="refs/heads/release-R92-13982.B" path="src/platform/factory_installer" remote="openfyde_cros" revision="7d599b14d8d3b5dac32b613e99e34ef8364b3232" />
+  <extend-project name="chromiumos/platform/firmware" origRev="refs/heads/release-R92-13982.B" path="src/platform/firmware" remote="openfyde_cros" revision="07591e49e9dd9b33b49b0e791feecb5cb8d6dee0" />
+  <extend-project name="chromiumos/platform/frecon" origRev="refs/heads/release-R92-13982.B" path="src/platform/frecon" remote="openfyde_cros" revision="db3923aa9569c82277f8756af3ba1c2f2b049330" />
+  <extend-project name="chromiumos/platform/gestures" origRev="refs/heads/release-R92-13982.B" path="src/platform/gestures" remote="openfyde_cros" revision="d67318268c3ff0c7788c444b0ac05094cacd57d1" />
+  <extend-project name="chromiumos/platform/glbench" origRev="refs/heads/release-R92-13982.B-main" path="src/platform/glbench" remote="openfyde_cros" revision="e96d7c6a57b16c7f4a265506f86ea827f8e23c6f" />
+  <extend-project name="chromiumos/platform/go-seccomp" origRev="refs/heads/release-R92-13982.B" path="src/platform/go-seccomp" remote="openfyde_cros" revision="9d14f8b297985ec80f05d14afd6378e3350e2c41" />
+  <extend-project name="chromiumos/platform/graphics" origRev="refs/heads/release-R92-13982.B" path="src/platform/graphics" remote="openfyde_cros" revision="2ad004cf5e59839b3ecce9cbc05e7637c2caed8d" />
+  <extend-project name="chromiumos/graphyte" origRev="refs/heads/release-R92-13982.B" path="src/platform/graphyte" remote="openfyde_cros" revision="f661990d0379f1030bdaa93c573ef4a50e9c6e66" />
+  <extend-project name="chromiumos/platform/initramfs" origRev="refs/heads/release-R92-13982.B" path="src/platform/initramfs" remote="openfyde_cros" revision="3ee4a6e643abcf07c55b075b09f44d2a2b08ab38" />
+  <extend-project name="chromiumos/platform/inputcontrol" origRev="refs/heads/release-R92-13982.B" path="src/platform/inputcontrol" remote="openfyde_cros" revision="6c9fd34b4a6231efc189c530e2f05d908b55185e" />
+  <extend-project name="chromiumos/platform/jabra_vold" origRev="refs/heads/release-R92-13982.B" path="src/platform/jabra_vold" remote="openfyde_cros" revision="233d517d2904912b207d273794b0ec5343e48010" />
+  <extend-project name="chromiumos/platform/libevdev" origRev="refs/heads/release-R92-13982.B" path="src/platform/libevdev" remote="openfyde_cros" revision="58e091cd2132dff2283affacba17175964fa45d6" />
+  <extend-project name="chromiumos/platform/libva-fake-driver" origRev="refs/heads/release-R92-13982.B" path="src/platform/libva-fake-driver" remote="openfyde_cros" revision="7754dd6e00355bb0d7bb5f597b482b6d5ff5cab5" />
+  <extend-project name="chromiumos/platform/lithium" origRev="refs/heads/release-R92-13982.B" path="src/platform/lithium" remote="openfyde_cros" revision="1b54b0fa69bb183ed19945a79b72bc17145eafe4" />
+  <extend-project name="chromiumos/platform/microbenchmarks" origRev="refs/heads/release-R92-13982.B" path="src/platform/microbenchmarks" remote="openfyde_cros" revision="a3c495a9f5657c3778e5179d1c1ba073ad26020b" />
+  <extend-project name="chromiumos/platform/minigbm" origRev="refs/heads/release-R92-13982.B" path="src/platform/minigbm" remote="openfyde_cros" revision="8ed9b31127ce03dbc8b5c8b78b03809af3ca8995" />
+  <extend-project name="chromiumos/platform/mosys" origRev="refs/heads/release-R92-13982.B" path="src/platform/mosys" remote="openfyde_cros" revision="8b2a2c062be89e22e2c413ce66fd4f2acdb33c88" />
+  <extend-project name="chromiumos/platform/mttools" origRev="refs/heads/release-R92-13982.B" path="src/platform/mttools" remote="openfyde_cros" revision="f0bf33d8a85c6a9766fb38d0f3b90ebe05ace376" />
+  <extend-project name="chromiumos/platform/ec" origRev="d46e286155693f9cb6bd66f8c2c0bc101f2006ee" path="src/platform/release-firmware/fpmcu-bloonchipper" remote="openfyde_cros" revision="d46e286155693f9cb6bd66f8c2c0bc101f2006ee" />
+  <extend-project name="chromiumos/platform/ec" origRev="8b63078abb67d76366cd3e01b077188bbcdb20a9" path="src/platform/release-firmware/fpmcu-dartmonkey" remote="openfyde_cros" revision="8b63078abb67d76366cd3e01b077188bbcdb20a9" />
+  <extend-project name="chromiumos/platform/ec" origRev="8b63078abb67d76366cd3e01b077188bbcdb20a9" path="src/platform/release-firmware/fpmcu-nami" remote="openfyde_cros" revision="8b63078abb67d76366cd3e01b077188bbcdb20a9" />
+  <extend-project name="chromiumos/platform/ec" origRev="8b63078abb67d76366cd3e01b077188bbcdb20a9" path="src/platform/release-firmware/fpmcu-nocturne" remote="openfyde_cros" revision="8b63078abb67d76366cd3e01b077188bbcdb20a9" />
+  <extend-project name="chromiumos/platform/tast" origRev="refs/heads/release-R92-13982.B" path="src/platform/tast" remote="openfyde_cros" revision="9d6640fcd4779dc1874fe3be4ec93417ef0212a7" />
+  <extend-project name="chromiumos/platform/tast-tests" origRev="refs/heads/release-R92-13982.B" path="src/platform/tast-tests" remote="openfyde_cros" revision="1174d51345d4c6dce4c3ab054f3af7883a6b7f2d" />
+  <extend-project name="chromiumos/platform/fw-testing-configs" origRev="refs/heads/release-R92-13982.B-main" path="src/platform/tast-tests/src/chromiumos/tast/remote/firmware/data/fw-testing-configs" remote="openfyde_cros" revision="0f398b31a072bddfe053fd8b614d03740a35309b" />
+  <extend-project name="chromiumos/platform/tremplin" origRev="refs/heads/release-R92-13982.B" path="src/platform/tremplin" remote="openfyde_cros" revision="2b326b63fa912e286beb22370c0828dcc9a8e0f3" />
+  <extend-project name="chromiumos/platform/touch_updater" origRev="refs/heads/release-R92-13982.B" path="src/platform/touch_updater" remote="openfyde_cros" revision="e6c6217e9de052cd2d6826d2a4ce759f8a925c40" />
+  <extend-project name="chromiumos/platform/touch_firmware_test" origRev="refs/heads/release-R92-13982.B" path="src/platform/touch_firmware_test" remote="openfyde_cros" revision="ac7cbcdcf6596b06484d39c891d820c65c69736d" />
+  <extend-project name="chromiumos/platform/touchpad-tests" origRev="refs/heads/release-R92-13982.B" path="src/platform/touchpad-tests" remote="openfyde_cros" revision="4c32bef9592024fe76fb0b8c913add3b1421e2d6" />
+  <extend-project name="chromiumos/platform/tpm_lite" origRev="refs/heads/release-R92-13982.B" path="src/platform/tpm_lite" remote="openfyde_cros" revision="dd6ae9f3a223c0a8a89a2e4c10600f7700354a53" />
+  <extend-project name="chromiumos/platform/uboot-env" origRev="refs/heads/release-R92-13982.B" path="src/platform/uboot-env" remote="openfyde_cros" revision="5ad506f38e25df5361f1ec7892e9b4f201590a64" />
+  <extend-project name="chromiumos/platform/usi-test" origRev="refs/heads/release-R92-13982.B" path="src/platform/usi-test" remote="openfyde_cros" revision="ca7b4b66c18c97e1d7e21b36a9c76239ea0530ef" />
+  <extend-project name="chromiumos/platform/vboot_reference" origRev="refs/heads/release-R92-13982.B" path="src/platform/vboot_reference" remote="openfyde_cros" revision="b384db34664466386016b03615fe1387aa2d53c7" />
+  <extend-project name="chromiumos/platform/vkbench" origRev="refs/heads/release-R92-13982.B" path="src/platform/vkbench" remote="openfyde_cros" revision="77a3bbb4f1b187e1a405a2604786a9b65aa8fa5d" />
+  <extend-project name="chromiumos/platform/vpd" origRev="refs/heads/release-R92-13982.B" path="src/platform/vpd" remote="openfyde_cros" revision="6860a9045b9163afa6601e51eecc3060967d32e9" />
+  <extend-project name="chromiumos/platform/xorg-conf" origRev="refs/heads/release-R92-13982.B" path="src/platform/xorg-conf" remote="openfyde_cros" revision="76a76f825b6c5cc889cfc812c34b3147672fbc82" />
+  <extend-project name="chromiumos/platform/crosutils" origRev="refs/heads/release-R92-13982.B" path="src/scripts" remote="openfyde_cros" revision="f7abe57b7ed055b3ef956b0a9ba4724c70eb8a44" />
+  <extend-project name="chromiumos/third_party/adhd" origRev="refs/heads/release-R92-13982.B" path="src/third_party/adhd" remote="openfyde_cros" revision="013d4485d359f1f70f7d7a0aee757e66c326f995" />
+  <extend-project name="chromiumos/third_party/arm-trusted-firmware" origRev="refs/heads/release-R92-13982.B" path="src/third_party/arm-trusted-firmware" remote="openfyde_cros" revision="2c62b00e8c4b327165a4bfd874714aa460f3e176" />
+  <extend-project name="chromiumos/third_party/apitrace" origRev="refs/heads/release-R92-13982.B-master" path="src/third_party/apitrace" remote="openfyde_cros" revision="34921b26ab9eb6b05bdc1ea57c31acaaaac99c12" />
+  <extend-project name="chromiumos/third_party/atrusctl" origRev="refs/heads/release-R92-13982.B" path="src/third_party/atrusctl" remote="openfyde_cros" revision="8488a85840ece78edc8d07e0801d4642d02a405c" />
+  <extend-project name="chromiumos/third_party/autotest" origRev="refs/heads/release-R92-13982.B" path="src/third_party/autotest/files" remote="openfyde_cros" revision="5e8439ef9884fa3d23f45ff1ff85efd1d9d36b49" />
+  <extend-project name="chromiumos/third_party/labpack" origRev="refs/heads/release-R92-13982.B" path="src/third_party/labpack/files" remote="openfyde_cros" revision="4629acf1ad1a784ecaf8da7bb0124893d4f85189" />
+  <extend-project name="chromiumos/platform/fw-testing-configs" origRev="refs/heads/release-R92-13982.B-main" path="src/third_party/autotest/files/server/cros/faft/fw-testing-configs" remote="openfyde_cros" revision="0f398b31a072bddfe053fd8b614d03740a35309b" />
+  <extend-project name="chromiumos/third_party/aver-updater" origRev="refs/heads/release-R92-13982.B" path="src/third_party/aver-updater" remote="openfyde_cros" revision="6e643d64f634f83f3ba7233f4fb4869e38a306e5" />
+  <extend-project name="chromiumos/third_party/fastrpc" origRev="refs/heads/release-R92-13982.B" path="src/third_party/fastrpc" remote="openfyde_cros" revision="c2d1cdc0fb781ee673077c5d4b243eb239c73bb5" />
+  <extend-project name="chromiumos/third_party/libiio" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libiio" remote="openfyde_cros" revision="213eca340c157b96232242da15539e12efb2d5c9" />
+  <extend-project name="chromiumos/third_party/bluez" origRev="refs/heads/release-R92-13982.B-chromeos-5.54" path="src/third_party/bluez/current" remote="openfyde_cros" revision="854eb97f8ee31d7c9dc857a04d68bd3b02669dde" />
+  <extend-project name="chromiumos/third_party/bluez" origRev="refs/heads/release-R92-13982.B-chromeos-5.54" path="src/third_party/bluez/next" remote="openfyde_cros" revision="854eb97f8ee31d7c9dc857a04d68bd3b02669dde" />
+  <extend-project name="chromiumos/third_party/bluez" origRev="d9fdbedf0ee3a5981e2d83d85b547b7750303acb" path="src/third_party/bluez/upstream" remote="openfyde_cros" revision="d9fdbedf0ee3a5981e2d83d85b547b7750303acb" />
+  <extend-project name="chromiumos/third_party/bootstub" origRev="refs/heads/release-R92-13982.B" path="src/third_party/bootstub" remote="openfyde_cros" revision="076cb8e624d2f9d8ab75fc07f614e3c1288e0b2e" />
+  <extend-project name="breakpad/breakpad" origRev="fe5025b7f10a16ad13cb218dd8f112a83677cfe6" path="src/third_party/breakpad" remote="openfyde_cros" revision="fe5025b7f10a16ad13cb218dd8f112a83677cfe6" />
+  <extend-project name="linux-syscall-support" origRev="fd00dbbd0c06a309c657d89e9430143b179ff6db" path="src/third_party/breakpad/src/third_party/lss" remote="openfyde_cros" revision="fd00dbbd0c06a309c657d89e9430143b179ff6db" />
+  <extend-project name="chromiumos/third_party/cbootimage" origRev="refs/heads/release-R92-13982.B" path="src/third_party/cbootimage" remote="openfyde_cros" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" />
+  <extend-project name="chromiumos/overlays/chromiumos-overlay" origRev="refs/heads/release-R92-13982.B" path="src/third_party/chromiumos-overlay" remote="openfyde_cros" revision="4029dd208504822bfec4dc610595f855ffd1a151" />
+  <extend-project name="chromiumos/third_party/coreboot" origRev="refs/heads/release-R92-13982.B" path="src/third_party/coreboot" remote="openfyde_cros" revision="cf8d2363353cb96698c45ba181ca62143f991451" />
+  <extend-project name="chromiumos/third_party/coreboot/qc_blobs" origRev="refs/heads/release-R92-13982.B" path="src/third_party/coreboot/3rdparty/qc_blobs" remote="openfyde_cros" revision="053eb2ab5f89a8e2b2077fd70c9ae7ff945e440e" />
+  <extend-project name="chromiumos/third_party/coreboot/amd_blobs" origRev="refs/heads/release-R92-13982.B" path="src/third_party/coreboot/3rdparty/amd_blobs" remote="openfyde_cros" revision="7874c7d3cebc0ebca57875e24911ddd55aec9711" />
+  <extend-project name="chromiumos/third_party/coreboot/blobs" origRev="refs/heads/release-R92-13982.B" path="src/third_party/coreboot/3rdparty/blobs" remote="openfyde_cros" revision="5efb89b0560b2828b8b84acd94561d01475afee2" />
+  <extend-project name="chromiumos/third_party/coreboot/intel-microcode" origRev="refs/heads/release-R92-13982.B" path="src/third_party/coreboot/3rdparty/intel-microcode" remote="openfyde_cros" revision="ee319ae7bc59e88b60142f40a9ec1b46656de4db" />
+  <extend-project name="chromiumos/third_party/cros-adapta" origRev="refs/heads/release-R92-13982.B" path="src/third_party/cros-adapta" remote="openfyde_cros" revision="eb6d8c1832b9181926df107faf41a80887fd982c" />
+  <extend-project name="chromiumos/third_party/cryptoc" origRev="refs/heads/release-R92-13982.B" path="src/third_party/cryptoc" remote="openfyde_cros" revision="3830fffbc5c5205bb8fb1b9f366fe44559923592" />
+  <extend-project name="chromiumos/third_party/cups" origRev="refs/heads/release-R92-13982.B" path="src/third_party/cups" remote="openfyde_cros" revision="5b2bb36c95cfdd681d695a41e5fad4fa8a517f55" />
+  <extend-project name="chromiumos/third_party/daisydog" origRev="refs/heads/release-R92-13982.B" path="src/third_party/daisydog" remote="openfyde_cros" revision="387aa374551913374e9fac1b7bd1ffec896d5f72" />
+  <extend-project name="chromiumos/overlays/eclass-overlay" origRev="refs/heads/release-R92-13982.B" path="src/third_party/eclass-overlay" remote="openfyde_cros" revision="06b7a1a98bb89d569e9f4e24fa39eb3de9556c03" />
+  <extend-project name="chromiumos/third_party/edk2" origRev="refs/heads/release-R92-13982.B-chromeos-2017.08" path="src/third_party/edk2" remote="openfyde_cros" revision="282203eb87cd384171690356a0771f1e09aa2c68" />
+  <extend-project name="chromiumos/third_party/em100" origRev="refs/heads/release-R92-13982.B" path="src/third_party/em100" remote="openfyde_cros" revision="ae88135ac22f2255299fbf15ff28186458afe4e1" />
+  <extend-project name="chromiumos/third_party/flashmap" origRev="refs/heads/release-R92-13982.B" path="src/third_party/flashmap" remote="openfyde_cros" revision="2f7b2e16f588dde75a0c9c28175f16b8cb9e11dc" />
+  <extend-project name="chromiumos/third_party/flashrom" origRev="refs/heads/release-R92-13982.B" path="src/third_party/flashrom" remote="openfyde_cros" revision="997da5827fbd4758f4124c7c27dba5ef5772a91f" />
+  <extend-project name="chromiumos/third_party/edk2" origRev="refs/heads/release-R92-13982.B-chromeos-cml-branch1" path="src/third_party/fsp/cml/edk2/branch1" remote="openfyde_cros" revision="264551f027e80cd73a4554b431043ff29c6685a8" />
+  <extend-project name="chromiumos/third_party/edk2" origRev="refs/heads/release-R92-13982.B-chromeos-cnl" path="src/third_party/fsp/cnl/edk2" remote="openfyde_cros" revision="633eecd755a7df84d690fa522b05016a69a1be66" />
+  <extend-project name="chromiumos/third_party/edk2" origRev="refs/heads/release-R92-13982.B-chromeos-glk" path="src/third_party/fsp/glk/edk2" remote="openfyde_cros" revision="ec95ee8c2d55a69b4b5e8b681a1e246dfa4cc9ba" />
+  <extend-project name="chromiumos/third_party/fwupd" origRev="refs/heads/release-R92-13982.B" path="src/third_party/fwupd" remote="openfyde_cros" revision="af56c3b4da7433fa7ede8361c26c8f07e655e785" />
+  <extend-project name="chromiumos/third_party/hdctools" origRev="refs/heads/release-R92-13982.B" path="src/third_party/hdctools" remote="openfyde_cros" revision="d332630ff3df167564508e72b0c71bee1fee6b4b" />
+  <extend-project name="chromiumos/third_party/huddly-updater" origRev="refs/heads/release-R92-13982.B" path="src/third_party/huddly-updater" remote="openfyde_cros" revision="8622a0d971b16620ca2e4e35dc44a4715a6993f4" />
+  <extend-project name="chromiumos/third_party/igt-gpu-tools" origRev="refs/heads/release-R92-13982.B" path="src/third_party/igt-gpu-tools" remote="openfyde_cros" revision="870601e7fb4aa8dcb118fd99833d07ce3dd2ea88" />
+  <extend-project name="chromiumos/third_party/intel-wifi-fw-dump" origRev="refs/heads/release-R92-13982.B" path="src/third_party/intel-wifi-fw-dump" remote="openfyde_cros" revision="c37a35ed64538beeb8240c19db85bce29ef6e534" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-3.18" path="src/third_party/kernel/v3.18" remote="openfyde_cros" revision="3a754c2513f47ad7fe08c95e28d43aa563062576" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-4.4" path="src/third_party/kernel/v4.4" remote="openfyde_cros" revision="cb85bd3a0149453695d3620c99002142867d6d95" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-4.14" path="src/third_party/kernel/v4.14" remote="openfyde_cros" revision="dfbdec1b1a0bb6fb27697f24c876dd3a93478109" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-4.14-gw" path="src/third_party/kernel/v4.14-gw" remote="openfyde_cros" revision="2bb8fccd2d65bc85d95912def6334a56503b14e4" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-4.19" path="src/third_party/kernel/v4.19" remote="openfyde_cros" revision="9abe9eac8155b852202ca908fd00895f71b1c139" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-4.19-ht" path="src/third_party/kernel/v4.19-ht" remote="openfyde_cros" revision="32c067a0e895f8d2e65c56ef4c43da87f00394dd" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-4.19-manatee" path="src/third_party/kernel/v4.19-manatee" remote="openfyde_cros" revision="7a693e957167215fab90a62bdc418cc2ab921074" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-5.4" path="src/third_party/kernel/v5.4" remote="openfyde_cros" revision="b4045c8e4b26a192e401f6fca6dda5de9f4759f0" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-5.4-manatee" path="src/third_party/kernel/v5.4-manatee" remote="openfyde_cros" revision="b0fcb811fd9c0bee9feadccfda27ff80049a6534" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-5.4-arcvm" path="src/third_party/kernel/v5.4-arcvm" remote="openfyde_cros" revision="57a2cfb00afa00214b8b4c6d14f052c06154b8a4" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-5.10-arcvm" path="src/third_party/kernel/v5.10-arcvm" remote="openfyde_cros" revision="bc6ca71187d63b327f639d45255d0f5804109a05" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R92-13982.B-chromeos-5.10" path="src/third_party/kernel/v5.10" remote="openfyde_cros" revision="98f3e3c9112dc1b9686197d24d9a5cc5ca17e6cd" />
+  <extend-project name="chromiumos/third_party/khronos" origRev="refs/heads/release-R92-13982.B" path="src/third_party/khronos" remote="openfyde_cros" revision="4a356c345ed897adfe2936ae2e6119a46bcd43b8" />
+  <extend-project name="chromiumos/third_party/lexmark-fax-pnh" origRev="refs/heads/release-R92-13982.B" path="src/third_party/lexmark-fax-pnh" remote="openfyde_cros" revision="f131d8f851366e6a2f8e8fa8f3042285d021d6c6" />
+  <extend-project name="apps/libapps" origRev="179cf25b6b69213df158e6b2c8b3d56df93486a0" path="src/third_party/libapps" remote="openfyde_cros" revision="179cf25b6b69213df158e6b2c8b3d56df93486a0" />
+  <extend-project name="chromiumos/third_party/libcamera" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libcamera" remote="openfyde_cros" revision="e56f1f493560e0b641bbe36a528a13767817afed" />
+  <extend-project name="chromiumos/third_party/libdrm" origRev="refs/heads/release-R92-13982.B-master" path="src/third_party/libdrm" remote="openfyde_cros" revision="728dfa9dbeeb013e5a26c24f4372a16eace99c5e" />
+  <extend-project name="chromiumos/third_party/libmbim" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libmbim" remote="openfyde_cros" revision="3503ff00c38c053d545134cee1257381b79f0eb0" />
+  <extend-project name="chromiumos/third_party/libqmi" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libqmi" remote="openfyde_cros" revision="d9def40a2e068fd7e961aa0a4c699cf62cb8672c" />
+  <extend-project name="chromiumos/third_party/libqrtr" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libqrtr" remote="openfyde_cros" revision="ba87335b33afcc0c1e0860ed41d0a98abc804184" />
+  <extend-project name="chromiumos/third_party/libqrtr-glib" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libqrtr-glib" remote="openfyde_cros" revision="d1de0242c237825719a69b97c6059f3151831e81" />
+  <extend-project name="chromiumos/third_party/libsigrok" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libsigrok" remote="openfyde_cros" revision="199fe31115c76231746f5953271795d58679561c" />
+  <extend-project name="chromiumos/third_party/libsigrokdecode" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libsigrokdecode" remote="openfyde_cros" revision="3279c2825684c7009775b731d0a9e37815778282" />
+  <extend-project name="chromiumos/third_party/libtextclassifier" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libtextclassifier" remote="openfyde_cros" revision="01652c17e116baa8ebd7083e8cbc3dede513ac9e" />
+  <extend-project name="chromiumos/third_party/libv4lplugins" origRev="refs/heads/release-R92-13982.B" path="src/third_party/libv4lplugins" remote="openfyde_cros" revision="679c8ed2cda9048369264127d210a0c3eb64f500" />
+  <extend-project name="chromiumos/third_party/linux-firmware" origRev="refs/heads/release-R92-13982.B" path="src/third_party/linux-firmware" remote="openfyde_cros" revision="539b18cdb120697cb108d3caff95d36a00f148ff" />
+  <extend-project name="chromiumos/third_party/logitech-updater" origRev="refs/heads/release-R92-13982.B" path="src/third_party/logitech-updater" remote="openfyde_cros" revision="20c6b09f3c48cdabff14c386d90135dfe45a4b99" />
+  <extend-project name="chromiumos/third_party/marvell" origRev="refs/heads/release-R92-13982.B" path="src/third_party/marvell" remote="openfyde_cros" revision="aa5b8ef66e65d81f660258bf9babc1abc7511e3c" />
+  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R92-13982.B-master" path="src/third_party/mesa" remote="openfyde_cros" revision="816ec3ecb4667a509c4ded1972151c00907f7f5d" />
+  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R92-13982.B-chromeos-amd" path="src/third_party/mesa-amd" remote="openfyde_cros" revision="9fc5ee58de44223e9f92064ad0f547302d1db55f" />
+  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R92-13982.B-debian" path="src/third_party/mesa-debian" remote="openfyde_cros" revision="c36b89b82bcd270e1f9ee7d0824c9e265a39e95b" />
+  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R92-13982.B-chromeos-freedreno" path="src/third_party/mesa-freedreno" remote="openfyde_cros" revision="267524b3edc38bf559e34570d4d793b22c090582" />
+  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R92-13982.B-chromeos-iris" path="src/third_party/mesa-iris" remote="openfyde_cros" revision="6c5059cab0e94f0753201a8776fdadaf8f93f036" />
+  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R92-13982.B-mesa-19.0" path="src/third_party/mesa-img" remote="openfyde_cros" revision="2e7833ad916c493969d00871cdf56db4407b80eb" />
+  <extend-project name="chromiumos/third_party/mimo-updater" origRev="refs/heads/release-R92-13982.B" path="src/third_party/mimo-updater" remote="openfyde_cros" revision="fb448bbd2986c743f3c37dbc784ae972e24b1a23" />
+  <extend-project name="aosp/platform/external/modp_b64" origRev="refs/heads/release-R92-13982.B" path="src/third_party/modp_b64" remote="openfyde_cros" revision="269b6fb8401617b85e2dff7ae8a7b0f97613e2cd" />
+  <extend-project name="chromiumos/third_party/mmc-utils" origRev="refs/heads/release-R92-13982.B" path="src/third_party/mmc-utils" remote="openfyde_cros" revision="7be960e2b84b5dfcbec44d3b722fb02d16b9eaf1" />
+  <extend-project name="chromiumos/third_party/modemmanager-next" origRev="refs/heads/release-R92-13982.B" path="src/third_party/modemmanager-next" remote="openfyde_cros" revision="977f50cdf476be26c1e88eace25ea0b1955cc5ab" />
+  <extend-project name="chromiumos/third_party/novatek-tcon-fw-update-tool" origRev="refs/heads/release-R92-13982.B" path="src/third_party/novatek-tcon-fw-update-tool" remote="openfyde_cros" revision="a78b7b0ba128471af835e44dc97698d39fd89bbf" />
+  <extend-project name="chromiumos/third_party/poly-updater" origRev="refs/heads/release-R92-13982.B" path="src/third_party/poly-updater" remote="openfyde_cros" revision="87ad2edeea039892515f68c948bc2b8f94999553" />
+  <extend-project name="chromiumos/overlays/portage-stable" origRev="refs/heads/release-R92-13982.B" path="src/third_party/portage-stable" remote="openfyde_cros" revision="bbad150db8ba002f46b848ec7e9e1e8970b1fb33" />
+  <extend-project name="chromiumos/third_party/portage_tool" origRev="refs/heads/release-R92-13982.B" path="src/third_party/portage_tool" remote="openfyde_cros" revision="2dfb7012b08e9ab94722ac1be3b4c22ddcc6b9b7" />
+  <extend-project name="chromiumos/third_party/qemu" origRev="refs/heads/release-R92-13982.B" path="src/third_party/qemu" remote="openfyde_cros" revision="fdd76fecdde1ad444ff4deb7f1c4f7e4a1ef97d6" />
+  <extend-project name="chromiumos/third_party/rootdev" origRev="refs/heads/release-R92-13982.B" path="src/third_party/rootdev" remote="openfyde_cros" revision="b2f37be7c25bc83b76f1b7063a4ef38b824dc4ef" />
+  <extend-project name="chromiumos/third_party/rust-vmm/vhost" origRev="refs/heads/release-R92-13982.B" path="src/third_party/rust-vmm/vhost" remote="openfyde_cros" revision="eaca5d36a2701c99b354ab5bc0954a78dfc9ff4f" />
+  <extend-project name="chromiumos/third_party/seabios" origRev="refs/heads/release-R92-13982.B" path="src/third_party/seabios" remote="openfyde_cros" revision="27b56c6e94fe37e9308392fefd25ba641d8be496" />
+  <extend-project name="chromiumos/third_party/libsigrok-cli" origRev="refs/heads/release-R92-13982.B" path="src/third_party/sigrok-cli" remote="openfyde_cros" revision="c9edfa218e5a5972531b6f4a3ece8d33a44ae1b5" />
+  <extend-project name="chromiumos/third_party/sis-updater" origRev="refs/heads/release-R92-13982.B" path="src/third_party/sis-updater" remote="openfyde_cros" revision="38bf335dc6376bab3d77bc1023c713e47de308db" />
+  <extend-project name="chromiumos/third_party/sound-open-firmware" origRev="refs/heads/release-R92-13982.B" path="src/third_party/sound-open-firmware" remote="openfyde_cros" revision="35691bd4813b901c78ab938a4ec8bcc7fcb7f35f" />
+  <extend-project name="chromiumos/third_party/sysbios" origRev="refs/heads/release-R92-13982.B" path="src/third_party/sysbios" remote="openfyde_cros" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" />
+  <extend-project name="chromiumos/third_party/systemd" origRev="refs/heads/release-R92-13982.B" path="src/third_party/systemd" remote="openfyde_cros" revision="be2ed6c3b67e544ae17fd90776f5331abd02b1c9" />
+  <extend-project name="chromiumos/third_party/tlsdate" origRev="refs/heads/release-R92-13982.B" path="src/third_party/tlsdate" remote="openfyde_cros" revision="95e4d2c2a0f5c66d5c191d28b7e09ca9d0376cab" />
+  <extend-project name="chromiumos/third_party/toolchain-utils" origRev="refs/heads/release-R92-13982.B" path="src/third_party/toolchain-utils" remote="openfyde_cros" revision="c2706e7ba7f2fe84e62b55aaf0145b4944a5233a" />
+  <extend-project name="chromiumos/platform/tpm" origRev="refs/heads/release-R92-13982.B" path="src/third_party/tpm" remote="openfyde_cros" revision="8afebd60c77201ab9eac6e049e4576ed26c6d600" />
+  <extend-project name="chromiumos/third_party/tpm2" origRev="refs/heads/release-R92-13982.B" path="src/third_party/tpm2" remote="openfyde_cros" revision="37335af9c5488ed349271a8ba9ff209c940a5e2c" />
+  <extend-project name="chromiumos/third_party/trousers" origRev="refs/heads/release-R92-13982.B" path="src/third_party/trousers" remote="openfyde_cros" revision="ab6e9c4b4a798bc99d7c9dee51f453c293ee14fa" />
+  <extend-project name="chromiumos/third_party/u-boot" origRev="refs/heads/release-R92-13982.B" path="src/third_party/u-boot/files" remote="openfyde_cros" revision="22fca97af0cd882e9cc4a938f3e83c7089290740" />
+  <extend-project name="chromiumos/third_party/upstart" origRev="refs/heads/release-R92-13982.B" path="src/third_party/upstart" remote="openfyde_cros" revision="0dda6d8f285760b12fb2696e9f7b8975702ec5cb" />
+  <extend-project name="chromiumos/third_party/virglrenderer" origRev="refs/heads/release-R92-13982.B" path="src/third_party/virglrenderer" remote="openfyde_cros" revision="4405172812f77e17e60037aca112d742b68eab29" />
+  <extend-project name="chromiumos/third_party/webrtc-apm" origRev="refs/heads/release-R92-13982.B" path="src/third_party/webrtc-apm" remote="openfyde_cros" revision="b29aa58066487076f7fde3b817a00b8f2eaf05a5" />
+  <extend-project name="chromiumos/third_party/hostap" origRev="refs/heads/release-R92-13982.B-master" path="src/third_party/wpa_supplicant" remote="openfyde_cros" revision="c297db6ffd38d6694fe5f8b04b55aa74e00e9c77" />
+  <extend-project name="chromiumos/third_party/Wi-FiTestSuite-Linux-DUT" origRev="refs/heads/release-R92-13982.B" path="src/third_party/Wi-FiTestSuite-Linux-DUT" remote="openfyde_cros" revision="afe5b18c1b33f03169779851369c8c4ab0bb941d" />
+  <extend-project name="chromiumos/third_party/hostap" origRev="refs/heads/release-R92-13982.B-wpa_supplicant-2.9" path="src/third_party/wpa_supplicant-2.9" remote="openfyde_cros" revision="bc0d52208f19610f7a2f0c31b949cf6002034134" />
+  <extend-project name="chromiumos/third_party/virtual-usb-printer" origRev="refs/heads/release-R92-13982.B" path="src/third_party/virtual-usb-printer" remote="openfyde_cros" revision="6a5113509b7947fffb9a59da87df0217a7620f9c" />
+  <extend-project name="external/git.kernel.org/fs/xfs/xfstests-dev" origRev="33bcdb836aeb9337178d9370e5196bc7910b8d41" path="src/third_party/xfstests" remote="openfyde_cros" revision="33bcdb836aeb9337178d9370e5196bc7910b8d41" />
+  <extend-project name="chromiumos/third_party/shellcheck" origRev="refs/heads/release-R92-13982.B" path="src/third_party/shellcheck" remote="openfyde_cros" revision="9b0d715ebcf37ceb7a3ac5278a3550366d05e417" />
+  <extend-project name="chromiumos/third_party/zephyr" origRev="refs/heads/release-R92-13982.B" path="src/third_party/zephyr/main/v2.5" remote="openfyde_cros" revision="58b38fe66d378d2ce5ce887f54f0262b0f818788" />
+  <extend-project name="chromiumos/third_party/zephyr/cmsis" origRev="refs/heads/release-R92-13982.B" path="src/third_party/zephyr/cmsis/v2.5" remote="openfyde_cros" revision="c3bd2094f92d574377f7af2aec147ae181aa5f8e" />
+  <extend-project name="chromiumos/third_party/zephyr/hal_stm32" origRev="refs/heads/release-R92-13982.B" path="src/third_party/zephyr/hal_stm32/v2.5" remote="openfyde_cros" revision="8eb12e4466cc73f2a95292073832878814b8ed31" />
+  <extend-project name="weave/libweave" origRev="bf5379935ba14d3ab0538ac77c69011d1b34de12" path="src/weave/libweave" remote="openfyde_cros" revision="bf5379935ba14d3ab0538ac77c69011d1b34de12" />
+  <extend-project name="chromium/tools/depot_tools" origRev="75c9832409cf3cc46fc1ed6783f9c294f77d2bb4" path="src/chromium/depot_tools" remote="openfyde_chromium" revision="5075c5333c0417c7cfd80b445c2d086ebedb522d" />
+  <extend-project name="chromium/src/buildtools" origRev="b9af93e79fee9a13ec3d09d144ec42a6bd20a418" path="src/chromium/src/buildtools" remote="openfyde_chromium" revision="b9af93e79fee9a13ec3d09d144ec42a6bd20a418" />
+  <extend-project name="chromium/llvm-project/cfe/tools/clang-format" origRev="bb994c6f067340c1135eb43eed84f4b33cfa7397" path="src/chromium/src/buildtools/clang_format/script" remote="openfyde_chromium" revision="bb994c6f067340c1135eb43eed84f4b33cfa7397" />
+  <extend-project name="chromium/src/third_party/Python-Markdown" origRev="2bb7b23b6398f9e79bc2fa8c6bc64a3cf1613ebf" path="src/chromium/src/third_party/Python-Markdown" remote="openfyde_chromium" revision="2bb7b23b6398f9e79bc2fa8c6bc64a3cf1613ebf" />
+  <extend-project name="chromium/src/tools/md_browser" origRev="60141af3603925d99bf3fb22fdfca138416339b1" path="src/chromium/src/tools/md_browser" remote="openfyde_chromium" revision="60141af3603925d99bf3fb22fdfca138416339b1" />
+  <extend-project name="platform/external/bsdiff" origRev="be81a990b3e1b1827602cf0fd23c5b55dce3a4de" path="src/aosp/external/bsdiff" remote="openfyde_aosp" revision="be81a990b3e1b1827602cf0fd23c5b55dce3a4de" />
+  <extend-project name="platform/external/puffin" origRev="d51726bde3cac59456126b86eb52d43035e4b245" path="src/aosp/external/puffin" remote="openfyde_aosp" revision="d51726bde3cac59456126b86eb52d43035e4b245" />
+  <extend-project name="platform/system/keymaster" origRev="49dfc58d6c4c66f5d0b0d06f0161da4e602a1293" path="src/aosp/system/keymaster" remote="openfyde_aosp" revision="49dfc58d6c4c66f5d0b0d06f0161da4e602a1293" />
+  <extend-project name="chromiumos/manifest" origRev="refs/heads/release-R92-13982.B" path="manifest" remote="openfyde_cros" revision="755c999b1481e1c7e51fc03e9b934e7b25987700" />
   </manifest>
