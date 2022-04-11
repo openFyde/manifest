@@ -131,7 +131,7 @@
   <extend-project name="chromiumos/third_party/cryptoc" origRev="refs/heads/release-R96-14268.B" path="src/third_party/cryptoc" remote="openfyde_cros" revision="3830fffbc5c5205bb8fb1b9f366fe44559923592" />
   <extend-project name="chromiumos/third_party/cups" origRev="refs/heads/release-R96-14268.B" path="src/third_party/cups" remote="openfyde_cros" revision="93fe2b032acca8147e0f343e8963e777f846d283" />
   <extend-project name="chromiumos/third_party/daisydog" origRev="refs/heads/release-R96-14268.B" path="src/third_party/daisydog" remote="openfyde_cros" revision="4b0c966fb6a35eabd6f06633a5c48ecff27ce2a5" />
-  <extend-project name="chromiumos/overlays/eclass-overlay" origRev="refs/heads/release-R96-14268.B" path="src/third_party/eclass-overlay" remote="openfyde_cros" revision="5897f5d4851e9b62c916ffc71ad5c442882a7f25" />
+  <extend-project name="chromiumos/overlays/eclass-overlay" origRev="refs/heads/release-R96-14268.B" path="src/third_party/eclass-overlay" remote="openfyde_cros" revision="refs/heads/release-R96-14268.B-openfyde" />
   <extend-project name="chromiumos/third_party/edk2" origRev="refs/heads/release-R96-14268.B-chromeos-2017.08" path="src/third_party/edk2" remote="openfyde_cros" revision="282203eb87cd384171690356a0771f1e09aa2c68" />
   <extend-project name="chromiumos/third_party/em100" origRev="refs/heads/release-R96-14268.B" path="src/third_party/em100" remote="openfyde_cros" revision="ae88135ac22f2255299fbf15ff28186458afe4e1" />
   <extend-project name="chromiumos/third_party/flashmap" origRev="refs/heads/release-R96-14268.B" path="src/third_party/flashmap" remote="openfyde_cros" revision="9c71c8331ad52a11d29496ffb10cbdb1a51e2ccb" />
