@@ -68,7 +68,7 @@
 
   <project path="openfyde/overlays/project-openfyde-drivers"
     name="project-openfyde-drivers"
-    revision="refs/heads/r96-dev"
+    revision="refs/heads/r96-dev-gitee"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde-drivers" />
