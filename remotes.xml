@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="openfyde_cros"
+          fetch="https://gerrit.openfyde.cn/chromium.googlesource.com"
+          review="https://chromium-review.googlesource.com" />
+
+  <remote name="openfyde_chromium"
+          alias="openfyde_cros"
+          fetch="https://gerrit.openfyde.cn/chromium.googlesource.com" />
+  <remote name="openfyde_aosp"
+          fetch="https://gerrit.openfyde.cn/android.googlesource.com"
+          review="https://android-review.googlesource.com" />
+
+  <remote name="openfyde"
+          fetch="ssh://git@gitlab.fydeos.xyz/openfyde/overlays" />
+  <remote name="openfyde-github"
+          fetch="ssh://git@github.com/openFyde" />
+
+</manifest>
