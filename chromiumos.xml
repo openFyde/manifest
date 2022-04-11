@@ -102,7 +102,7 @@
   <extend-project name="chromiumos/platform/vkbench" origRev="refs/heads/release-R96-14268.B" path="src/platform/vkbench" remote="openfyde_cros" revision="96811b97cb9e532d6149f2c0bd5c18987cef3eef" />
   <extend-project name="chromiumos/platform/vpd" origRev="refs/heads/release-R96-14268.B" path="src/platform/vpd" remote="openfyde_cros" revision="ea4ece04cb84d426c1ddf1b6a06dd5ba22115871" />
   <extend-project name="chromiumos/platform/xorg-conf" origRev="refs/heads/release-R96-14268.B" path="src/platform/xorg-conf" remote="openfyde_cros" revision="6abab868639f35ffb2399c32a80e7f7e8bb88621" />
-  <extend-project name="chromiumos/platform/crosutils" origRev="refs/heads/release-R96-14268.B" path="src/scripts" remote="openfyde_cros" revision="f99391125c20fa308fc80f02516770d239bc7188" />
+  <extend-project name="chromiumos/platform/crosutils" origRev="refs/heads/release-R96-14268.B" path="src/scripts" remote="openfyde_cros" revision="refs/heads/release-R96-14268.B-openfyde" />
   <extend-project name="chromiumos/third_party/adhd" origRev="refs/heads/release-R96-14268.B" path="src/third_party/adhd" remote="openfyde_cros" revision="7c8d531e8831323235c8354b9bcc610323f6df2c" />
   <extend-project name="chromiumos/third_party/arm-trusted-firmware" origRev="refs/heads/release-R96-14268.B" path="src/third_party/arm-trusted-firmware" remote="openfyde_cros" revision="ab5964aadcf090c816804a798c0d49bc0c9b5183" />
   <extend-project name="chromiumos/third_party/apitrace" origRev="refs/heads/release-R96-14268.B-master" path="src/third_party/apitrace" remote="openfyde_cros" revision="34921b26ab9eb6b05bdc1ea57c31acaaaac99c12" />
