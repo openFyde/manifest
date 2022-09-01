@@ -2,7 +2,7 @@
 <manifest>
   <project path="openfyde/overlays/foundation-rk3399"
     name="foundation-rk3399"
-    revision="refs/heads/r102-dev"
+    revision="refs/heads/r102-dev-gitee"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="baseboard-rockpi4" dest="src/overlays/baseboard-rockpi4" />
@@ -19,7 +19,7 @@
 
   <project path="openfyde/overlays/overlay-rock4cp-openfyde"
     name="overlay-rock4cp-openfyde"
-    revision="refs/heads/r102-dev"
+    revision="refs/heads/r102-dev-gitee"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-rock4cp-openfyde" />

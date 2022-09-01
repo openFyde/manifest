@@ -2,7 +2,7 @@
 <manifest>
   <project path="openfyde/overlays/foundation-rk3588"
     name="foundation-rk3588"
-    revision="refs/heads/r102-dev"
+    revision="refs/heads/r102-dev-gitee"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="baseboard-inaugural" dest="src/overlays/baseboard-inaugural" />
