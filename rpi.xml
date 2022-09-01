@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="rpi_fydeos"
-    fetch="https://github.com/FydeOS" />
+    fetch="https://gitee.com/openFyde" />
 
   <project path="openfyde/overlays/chromium_os-raspberry_pi"
     name="chromium_os-raspberry_pi"
-    revision="refs/heads/r102-dev"
+    revision="refs/heads/r102-dev-gitee"
     groups="fydeos,fydeos_overlays,project"
     remote="rpi_fydeos">
     <linkfile src="baseboard-rpi3" dest="src/overlays/baseboard-rpi3" />
