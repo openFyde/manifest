@@ -108,7 +108,7 @@
 
   <project path="openfyde/overlays/overlay-rpi4-openfyde"
     name="overlay-rpi4-openfyde"
-    revision="refs/heads/r102-dev"
+    revision="refs/heads/r102-dev-gitee"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-rpi4-openfyde" />
