@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="rpi_fydeos"
-    fetch="https://github.com/FydeOS" />
+    fetch="https://gitee.com/openFyde" />
 
   <project path="openfyde/overlays/chromium_os-raspberry_pi"
     name="chromium_os-raspberry_pi"
