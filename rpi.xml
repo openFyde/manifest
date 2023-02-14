@@ -5,7 +5,7 @@
 
   <project path="openfyde/overlays/chromium_os-raspberry_pi"
     name="chromium_os-raspberry_pi"
-    revision="refs/heads/r108-dev"
+    revision="refs/heads/r108-dev-gitee"
     groups="fydeos,fydeos_overlays,project"
     remote="rpi_fydeos">
     <linkfile src="baseboard-rpi3" dest="src/overlays/baseboard-rpi3" />
