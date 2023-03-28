@@ -33,6 +33,14 @@
     <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde" />
   </project>
 
+  <project path="openfyde/overlays/overlay-orangepi5-openfyde-base"
+    name="overlay-orangepi5-openfyde-base"
+    revision="refs/heads/r108-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-orangepi5-openfyde-base" />
+  </project>
+
   <project path="openfyde/overlays/overlay-orangepi5-openfyde"
     name="overlay-orangepi5-openfyde"
     revision="refs/heads/r108-dev"
