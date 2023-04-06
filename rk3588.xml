@@ -25,6 +25,14 @@
     <linkfile src="." dest="src/overlays/overlay-firefly_itx3588j-openfyde" />
   </project>
 
+  <project path="openfyde/overlays/overlay-rock5b-openfyde-base"
+    name="overlay-rock5b-openfyde-base"
+    revision="refs/heads/r108-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde-base" />
+  </project>
+
   <project path="openfyde/overlays/overlay-rock5b-openfyde"
     name="overlay-rock5b-openfyde"
     revision="refs/heads/r108-dev"
