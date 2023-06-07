@@ -3,9 +3,10 @@
   <remote name="openfyde_chromium_internal"
 	  fetch="ssh://git@gitlab.fydeos.xyz/chromium-source" />
 
+  <!-- TODO: update to openfyde chromium branch -->
   <project path="openfyde/chromium/src"
 	   name="chromium"
-	   revision="refs/heads/r108-dev"
+	   revision="refs/tags/114.0.5735.121"
 	   groups="fydeos,chromium"
 	   remote="openfyde_chromium_internal">
   </project>

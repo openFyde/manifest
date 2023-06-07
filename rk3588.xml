@@ -2,59 +2,59 @@
 <manifest>
   <project path="openfyde/overlays/foundation-rk3588"
     name="foundation-rk3588"
-    revision="refs/heads/r108-dev"
+    revision="refs/heads/r114-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="baseboard-inaugural" dest="src/overlays/baseboard-inaugural" />
     <linkfile src="chipset-rk3588" dest="src/overlays/chipset-rk3588" />
   </project>
 
-  <project path="openfyde/overlays/overlay-firefly_rk3588spc-openfyde"
-    name="overlay-firefly_rk3588spc-openfyde"
-    revision="refs/heads/r102-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-firefly_rk3588spc-openfyde" />
-  </project>
-
-  <project path="openfyde/overlays/overlay-firefly_itx3588j-openfyde"
-    name="overlay-firefly_itx3588j-openfyde"
-    revision="refs/heads/r102-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-firefly_itx3588j-openfyde" />
-  </project>
-
-  <project path="openfyde/overlays/overlay-rock5b-openfyde-base"
-    name="overlay-rock5b-openfyde-base"
-    revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde-base" />
-  </project>
-
-  <project path="openfyde/overlays/overlay-rock5b-openfyde"
-    name="overlay-rock5b-openfyde"
-    revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde" />
-  </project>
-
-  <project path="openfyde/overlays/overlay-orangepi5-openfyde-base"
-    name="overlay-orangepi5-openfyde-base"
-    revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-orangepi5-openfyde-base" />
-  </project>
-
-  <project path="openfyde/overlays/overlay-orangepi5-openfyde"
-    name="overlay-orangepi5-openfyde"
-    revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-orangepi5-openfyde" />
-  </project>
+  <!-- <project path="openfyde/overlays/overlay-firefly_rk3588spc-openfyde" -->
+  <!--   name="overlay-firefly_rk3588spc-openfyde" -->
+  <!--   revision="refs/heads/r102-dev" -->
+  <!--   groups="fydeos,fydeos_overlays,project" -->
+  <!--   remote="openfyde"> -->
+  <!--   <linkfile src="." dest="src/overlays/overlay-firefly_rk3588spc-openfyde" /> -->
+  <!-- </project> -->
+  <!---->
+  <!-- <project path="openfyde/overlays/overlay-firefly_itx3588j-openfyde" -->
+  <!--   name="overlay-firefly_itx3588j-openfyde" -->
+  <!--   revision="refs/heads/r102-dev" -->
+  <!--   groups="fydeos,fydeos_overlays,project" -->
+  <!--   remote="openfyde"> -->
+  <!--   <linkfile src="." dest="src/overlays/overlay-firefly_itx3588j-openfyde" /> -->
+  <!-- </project> -->
+  <!---->
+  <!-- <project path="openfyde/overlays/overlay-rock5b-openfyde-base" -->
+  <!--   name="overlay-rock5b-openfyde-base" -->
+  <!--   revision="refs/heads/r108-dev" -->
+  <!--   groups="fydeos,fydeos_overlays,project" -->
+  <!--   remote="openfyde"> -->
+  <!--   <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde-base" /> -->
+  <!-- </project> -->
+  <!---->
+  <!-- <project path="openfyde/overlays/overlay-rock5b-openfyde" -->
+  <!--   name="overlay-rock5b-openfyde" -->
+  <!--   revision="refs/heads/r108-dev" -->
+  <!--   groups="fydeos,fydeos_overlays,project" -->
+  <!--   remote="openfyde"> -->
+  <!--   <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde" /> -->
+  <!-- </project> -->
+  <!---->
+  <!-- <project path="openfyde/overlays/overlay-orangepi5-openfyde-base" -->
+  <!--   name="overlay-orangepi5-openfyde-base" -->
+  <!--   revision="refs/heads/r108-dev" -->
+  <!--   groups="fydeos,fydeos_overlays,project" -->
+  <!--   remote="openfyde"> -->
+  <!--   <linkfile src="." dest="src/overlays/overlay-orangepi5-openfyde-base" /> -->
+  <!-- </project> -->
+  <!---->
+  <!-- <project path="openfyde/overlays/overlay-orangepi5-openfyde" -->
+  <!--   name="overlay-orangepi5-openfyde" -->
+  <!--   revision="refs/heads/r108-dev" -->
+  <!--   groups="fydeos,fydeos_overlays,project" -->
+  <!--   remote="openfyde"> -->
+  <!--   <linkfile src="." dest="src/overlays/overlay-orangepi5-openfyde" /> -->
+  <!-- </project> -->
 
 </manifest>
