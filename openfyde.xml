@@ -59,14 +59,13 @@
     <linkfile src="." dest="src/overlays/arch-amd64" />
   </project>
 
-  <!-- not used -->
-  <!-- <project path="openfyde/overlays/project-fydemina" -->
-  <!--   name="project-fydemina" -->
-  <!--   revision="refs/heads/r114-dev" -->
-  <!--   groups="fydeos,fydeos_overlays,project" -->
-  <!--   remote="openfyde"> -->
-  <!--   <linkfile src="." dest="src/overlays/project-fydemina" /> -->
-  <!-- </project> -->
+  <project path="openfyde/overlays/project-fydemina"
+    name="project-fydemina"
+    revision="refs/heads/r114-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-fydemina" />
+  </project>
 
   <project path="openfyde/overlays/project-openfyde"
     name="project-openfyde"
