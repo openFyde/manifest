@@ -89,4 +89,20 @@
     <linkfile src="." dest="src/overlays/overlay-orangepi5-openfyde" />
   </project>
 
+  <project path="openfyde/overlays/overlay-edge2-openfyde-base"
+    name="overlay-edge2-openfyde-base"
+    revision="refs/heads/r114-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-edge2-openfyde-base" />
+  </project>
+
+  <project path="openfyde/overlays/overlay-edge2-openfyde"
+    name="overlay-edge2-openfyde"
+    revision="refs/heads/r114-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-edge2-openfyde" />
+  </project>
+
 </manifest>
