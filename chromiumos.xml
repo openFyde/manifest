@@ -2,18 +2,18 @@
 <manifest>
   <extend-project name="chromiumos/third_party/kernel" origRev="fcb63aefef0e859a0c8ce6486302457d0e5cbac0" path="src/third_party/kernel/upstream" revision="fcb63aefef0e859a0c8ce6486302457d0e5cbac0" />
   <extend-project name="chromiumos/repohooks" origRev="refs/heads/release-R114-15437.B" path="src/repohooks" revision="323cf6b5e186fb8ef5e95c1b9a6928c740941d69" />
-  <extend-project name="chromiumos/chromite" origRev="refs/heads/release-R114-15437.B" path="chromite" revision="b444b744209db785a8800500f07234b9020d4d8e" />
+  <extend-project name="chromiumos/chromite" origRev="refs/heads/release-R114-15437.B" path="chromite" revision="0c07bf38ffc5549f4162cfc43207e5f7319d3ddb" />
   <extend-project name="chromiumos/infra/proto" origRev="refs/heads/release-R114-15437.B" path="chromite/infra/proto" revision="19b0cf6f591f781df4da1326d9751f0baf02cdeb" />
   <extend-project name="chromiumos/third_party/pyelftools" origRev="refs/heads/release-R114-15437.B" path="chromite/third_party/pyelftools" revision="ba5e034f5d3a75036d1f5b2a614219906d0491d2" />
   <extend-project name="infra/luci/client-py" origRev="34b20305c7a69eb89e1abd5e2a94708db999f0a9" path="chromite/third_party/swarming.client" revision="34b20305c7a69eb89e1abd5e2a94708db999f0a9" />
   <extend-project name="chromiumos/docs" origRev="515c34fff01b79de82fde852d76e096d35395ff5" path="docs" revision="515c34fff01b79de82fde852d76e096d35395ff5" />
   <extend-project name="chromiumos/manifest" origRev="refs/heads/release-R114-15437.B" path="manifest" revision="16859615c91f40a2355b9557840868c5765e0c4d" />
   <extend-project name="chromiumos/config" origRev="refs/heads/release-R114-15437.B" path="src/config" revision="903127bd1f7c199ad5159d349202fefcf835ca12" />
-  <extend-project name="chromiumos/overlays/board-overlays" origRev="refs/heads/release-R114-15437.B" path="src/overlays" revision="758782c45124917c81f6e9b17aee95ce9c0f0217" />
+  <extend-project name="chromiumos/overlays/board-overlays" origRev="refs/heads/release-R114-15437.B" path="src/overlays" revision="66ee95fd385412f5616976ff1a7fcfa7ad13cc84" />
   <extend-project name="chromiumos/infra/build/empty-project" origRev="d2d95e8af89939f893b1443135497c1f5572aebc" path="src/platform/empty-project" revision="d2d95e8af89939f893b1443135497c1f5572aebc" />
   <extend-project name="chromiumos/project" origRev="refs/heads/release-R114-15437.B" path="src/project_public" revision="12e35ec4c4dcf65213f75332ea6d3e6ad901aa25" />
   <extend-project name="chromiumos/platform/crosutils" origRev="refs/heads/release-R114-15437.B" path="src/scripts" revision="fbb4eabf64ed93ca43127b06ddef47e965c1a0b7" />
-  <extend-project name="chromiumos/platform2" origRev="refs/heads/release-R114-15437.B" path="src/platform2" revision="b43d624777992c4fb3141246b93abd95a708e4dc" />
+  <extend-project name="chromiumos/platform2" origRev="refs/heads/release-R114-15437.B" path="src/platform2" revision="759635cf334285c52b12a0ebd304988c4bb1329f" />
   <extend-project name="chromiumos/platform/assets" origRev="refs/heads/release-R114-15437.B" path="src/platform/assets" revision="d8590410975b8aee2e9666331691e24d5762c6b0" />
   <extend-project name="chromiumos/platform/audiotest" origRev="refs/heads/release-R114-15437.B" path="src/platform/audiotest" revision="e79d0aeff3b53a115780cecd61199cc40894e4aa" />
   <extend-project name="chromiumos/platform/bisect-kit" origRev="refs/heads/release-R114-15437.B" path="src/platform/bisect-kit" revision="72bf4b21c8f839f4affb75c1d53d0dd05b0e0c6c" />
@@ -29,12 +29,12 @@
   <extend-project name="chromiumos/platform/ec" origRev="refs/heads/release-R114-15437.B-cr50_stab" path="src/platform/cr50" revision="30562adc4147a777b4eb90f54a073d9c95e7a2b8" />
   <extend-project name="chromiumos/platform/crdyboot" origRev="refs/heads/release-R114-15437.B" path="src/platform/crdyboot" revision="55282ff143ee561028468fa2c18f255d0ee73df0" />
   <extend-project name="chromiumos/platform/crostestutils" origRev="refs/heads/release-R114-15437.B" path="src/platform/crostestutils" revision="bd5382285d98df73eec47896a37d75c09a8ed661" />
-  <extend-project name="chromiumos/platform/crosvm" origRev="refs/heads/release-R114-15437.B" path="src/platform/crosvm" revision="a8b48953a7d209b32d34fe64e2324cb1113b4336" />
+  <extend-project name="chromiumos/platform/crosvm" origRev="refs/heads/release-R114-15437.B" path="src/platform/crosvm" revision="fc7b25f9ddb6dd6be9bfa4ba11a8e1a5b7b21ce7" />
   <extend-project name="chromiumos/platform/depthcharge" origRev="refs/heads/release-R114-15437.B" path="src/platform/depthcharge" revision="c43b1e265e19cf25d4cf5220fd794096add07757" />
-  <extend-project name="chromiumos/platform/dev-util" origRev="refs/heads/release-R114-15437.B" path="src/platform/dev" revision="cce6fd4e486fabfc09b844f193a2038b8fc57b64" />
+  <extend-project name="chromiumos/platform/dev-util" origRev="refs/heads/release-R114-15437.B" path="src/platform/dev" revision="34925cc4a5022cdd49ba999bf144e75608469d7e" />
   <extend-project name="chromiumos/platform/drm-tests" origRev="refs/heads/release-R114-15437.B" path="src/platform/drm-tests" revision="473c731487a5364038a6840f0865f4cacc3d886b" />
   <extend-project name="chromiumos/platform/ec" origRev="refs/heads/release-R114-15437.B-main" path="src/platform/ec" revision="0c7848ad95b4fdebda70365a74da76032466ab1f" />
-  <extend-project name="chromiumos/platform/factory" origRev="refs/heads/release-R114-15437.B" path="src/platform/factory" revision="e9a67f12f2316ffd6d6e39ba0265aa9b5ba1f196" />
+  <extend-project name="chromiumos/platform/factory" origRev="refs/heads/release-R114-15437.B" path="src/platform/factory" revision="b0e8e782d7ee20acd82707a1c53e907a38eec1a6" />
   <extend-project name="chromiumos/platform/factory_installer" origRev="refs/heads/release-R114-15437.B" path="src/platform/factory_installer" revision="63ee7fd9b295c54087b4521dd3706df9352a9bc9" />
   <extend-project name="chromiumos/platform/firmware" origRev="refs/heads/release-R114-15437.B" path="src/platform/firmware" revision="bea19bc62a049aa21166182de41867b43deafb12" />
   <extend-project name="chromiumos/platform/frecon" origRev="refs/heads/release-R114-15437.B" path="src/platform/frecon" revision="e4ff063b3e0cb7c16b09b24d0983bf21b22654c0" />
@@ -65,7 +65,7 @@
   <extend-project name="chromiumos/platform/ec" origRev="c453fd704268ef72de871b0c5ac7a989de662334" path="src/platform/release-firmware/fpmcu-nocturne" revision="c453fd704268ef72de871b0c5ac7a989de662334" />
   <extend-project name="chromiumos/platform/rules_cros" origRev="refs/heads/release-R114-15437.B" path="src/platform/rules_cros" revision="5293edfe416ead42dc940651db4280d92aa04af7" />
   <extend-project name="chromiumos/platform/tast" origRev="refs/heads/release-R114-15437.B" path="src/platform/tast" revision="2b04ba3a2b9e75dc9c1096f1c77fb8a2916c8fa5" />
-  <extend-project name="chromiumos/platform/tast-tests" origRev="refs/heads/release-R114-15437.B" path="src/platform/tast-tests" revision="7816fc12a7004f4b04536c9c0bb6f8a8f082e199" />
+  <extend-project name="chromiumos/platform/tast-tests" origRev="refs/heads/release-R114-15437.B" path="src/platform/tast-tests" revision="4ffc5030b89884bd095f2ee348a33bb5a23ec452" />
   <extend-project name="chromiumos/platform/fw-testing-configs" origRev="refs/heads/release-R114-15437.B-main" path="src/platform/tast-tests/src/chromiumos/tast/remote/firmware/data/fw-testing-configs" revision="81841768f4ed37966233c24b762a906d0360e748" />
   <extend-project name="chromiumos/platform/fw-testing-configs" origRev="refs/heads/release-R114-15437.B-main" path="src/platform/tast-tests/src/go.chromium.org/tast-tests/cros/remote/firmware/data/fw-testing-configs" revision="81841768f4ed37966233c24b762a906d0360e748" />
   <extend-project name="chromiumos/platform/tauto" origRev="refs/heads/release-R114-15437.B" path="src/platform/tauto" revision="92d90dcc2c288822ea930d5311e0fb412882f2c5" />
@@ -85,7 +85,7 @@
   <extend-project name="chromiumos/third_party/apitrace" origRev="refs/heads/release-R114-15437.B-master" path="src/third_party/apitrace" revision="1090464595110ae95d329f2f7b6220443052c215" />
   <extend-project name="chromiumos/third_party/arm-trusted-firmware" origRev="refs/heads/release-R114-15437.B" path="src/third_party/arm-trusted-firmware" revision="0223d15764ed78319c0eac00c641c6148898a395" />
   <extend-project name="chromiumos/third_party/atrusctl" origRev="refs/heads/release-R114-15437.B" path="src/third_party/atrusctl" revision="9105f9b4dff2e298b9318937ac8eceed897dec8a" />
-  <extend-project name="chromiumos/third_party/autotest" origRev="refs/heads/release-R114-15437.B" path="src/third_party/autotest/files" revision="c4faf0e8b5199424a8a3b449cb167493ed55a9bb" />
+  <extend-project name="chromiumos/third_party/autotest" origRev="refs/heads/release-R114-15437.B" path="src/third_party/autotest/files" revision="f85c82dbdaa0f0175a6548399c56175668842c6f" />
   <extend-project name="chromiumos/platform/fw-testing-configs" origRev="refs/heads/release-R114-15437.B-main" path="src/third_party/autotest/files/server/cros/faft/fw-testing-configs" revision="81841768f4ed37966233c24b762a906d0360e748" />
   <extend-project name="chromiumos/third_party/aver-updater" origRev="refs/heads/release-R114-15437.B" path="src/third_party/aver-updater" revision="2f2f9b40b20547a8e58bbe8f7116d91ca8db611f" />
   <extend-project name="chromiumos/third_party/bluez" origRev="refs/heads/release-R114-15437.B-chromeos-5.54" path="src/third_party/bluez/current" revision="bd365b13841518234d2ff9c90391a84b5ab0cc06" />
@@ -97,7 +97,7 @@
   <extend-project name="linux-syscall-support" origRev="9719c1e1e676814c456b55f5f070eabad6709d31" path="src/third_party/breakpad/src/third_party/lss" revision="9719c1e1e676814c456b55f5f070eabad6709d31" />
   <extend-project name="chromiumos/third_party/cbootimage" origRev="refs/heads/release-R114-15437.B" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" />
   <extend-project name="chromiumos/third_party/chre" origRev="refs/heads/release-R114-15437.B" path="src/third_party/chre" revision="daeb8a69323b2aeec9792e27caea895910295aed" />
-  <extend-project name="chromiumos/overlays/chromiumos-overlay" origRev="refs/heads/release-R114-15437.B" path="src/third_party/chromiumos-overlay" revision="e142c54a25acf0522218ab4b2ca8dd770e5de4c4" />
+  <extend-project name="chromiumos/overlays/chromiumos-overlay" origRev="refs/heads/release-R114-15437.B" path="src/third_party/chromiumos-overlay" revision="1f4d7188d9682cffb102556eaadd23bf1adc12ef" />
   <extend-project name="chromiumos/third_party/clspv" origRev="refs/heads/release-R114-15437.B" path="src/third_party/clspv" revision="cd2fcb73fb1129f7228a7327d5cc1616a91bc8d9" />
   <extend-project name="chromiumos/third_party/clvk" origRev="refs/heads/release-R114-15437.B" path="src/third_party/clvk" revision="366b91790df29da0dd01a0dc470c4f237105774c" />
   <extend-project name="chromiumos/third_party/coreboot" origRev="refs/heads/release-R114-15437.B" path="src/third_party/coreboot" revision="e2f6a2ce1f83000c96fe615016b84664385c4955" />
@@ -123,21 +123,21 @@
   <extend-project name="chromiumos/third_party/edk2" origRev="refs/heads/release-R114-15437.B-chromeos-glk" path="src/third_party/fsp/glk/edk2" revision="f84e90881271300af73761bbd6a6fa8b8f82c266" />
   <extend-project name="chromiumos/third_party/fwupd" origRev="refs/heads/release-R114-15437.B" path="src/third_party/fwupd" revision="fc50a64bbfa295ed2663a04ffeff4659e46074e7" />
   <extend-project name="external/github.com/google/googletest" origRev="d92a270d2d9d6bb7ed3bf7dc3f698028550a65ef" path="src/third_party/googletest" revision="d92a270d2d9d6bb7ed3bf7dc3f698028550a65ef" />
-  <extend-project name="chromiumos/third_party/hdctools" origRev="refs/heads/release-R114-15437.B" path="src/third_party/hdctools" revision="0660d5e4b3593bff10898ae881ba588478531446" />
+  <extend-project name="chromiumos/third_party/hdctools" origRev="refs/heads/release-R114-15437.B" path="src/third_party/hdctools" revision="67007a285b2420555dff82b70c10b3fc7a9c3dbe" />
   <extend-project name="chromiumos/third_party/huddly-updater" origRev="refs/heads/release-R114-15437.B" path="src/third_party/huddly-updater" revision="99aeddcd62c5fecc308ec142e709ab374fd1a5f7" />
   <extend-project name="chromiumos/third_party/igt-gpu-tools" origRev="refs/heads/release-R114-15437.B" path="src/third_party/igt-gpu-tools" revision="a267f0236e06fc282e3dc3b8c7d76f9ed6088d9b" />
   <extend-project name="external/github.com/include-what-you-use/include-what-you-use" origRev="1a2cab9b712682c08187af5a00d709f33df0ae1b" path="src/third_party/include-what-you-use" revision="1a2cab9b712682c08187af5a00d709f33df0ae1b" />
   <extend-project name="chromiumos/third_party/intel-wifi-fw-dump" origRev="refs/heads/release-R114-15437.B" path="src/third_party/intel-wifi-fw-dump" revision="5b054af75c90713bc45b5c9c0375dca2a843f201" />
   <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-merge-pkvm-ia-5.19" path="src/third_party/kernel/pkvm-ia-5.19" revision="37ef9cade85c7756e639b2848da68d02174f6565" />
   <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-4.4" path="src/third_party/kernel/v4.4" revision="b66bd6103236e0046a5f0d70c42f3059977ebaea" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-4.14" path="src/third_party/kernel/v4.14" revision="c32c2d54e43429fc57842fd6690a68e9b854356e" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-4.19" path="src/third_party/kernel/v4.19" revision="651a58cedce9044d10daadbec1f8ce43a788b737" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-5.4" path="src/third_party/kernel/v5.4" revision="bdd3b012dde73087acff6a7743e489273ea313dc" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-5.10" path="src/third_party/kernel/v5.10" revision="c952fc054dac8eb6f1f11054de5ecd37d56f80c7" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-4.14" path="src/third_party/kernel/v4.14" revision="fed48f2c6e57248b06e17651fbe5274e454efceb" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-4.19" path="src/third_party/kernel/v4.19" revision="2ebc5453ce3d4ed807286e5128903dad58c9421a" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-5.4" path="src/third_party/kernel/v5.4" revision="50b3fd7eba54976578840708f20ff16680671605" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-5.10" path="src/third_party/kernel/v5.10" revision="c1b20ae5c47f7323a4fd95e4f81d71398a8b88ae" />
   <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-5.10-arcvm" path="src/third_party/kernel/v5.10-arcvm" revision="54c68cfd6f410ecf1d3a17bbb3fa6cdfdc371a24" />
   <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-5.10-manatee" path="src/third_party/kernel/v5.10-manatee" revision="bcdce2c19ad3946c56fb57d47df213694530c1b0" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-5.15" path="src/third_party/kernel/v5.15" revision="ab0e1cb584e15421178d7592b2b639a47a114b23" />
-  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-6.1" path="src/third_party/kernel/v6.1" revision="aa6f9bf0f31929f6f05ded1e607205cbc08ba46b" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-5.15" path="src/third_party/kernel/v5.15" revision="14006c3606fe930970173b421b40b2067d3e175d" />
+  <extend-project name="chromiumos/third_party/kernel" origRev="refs/heads/release-R114-15437.B-chromeos-6.1" path="src/third_party/kernel/v6.1" revision="5e12de4bc856b1061797622782518584ff051030" />
   <extend-project name="chromiumos/third_party/khronos" origRev="refs/heads/release-R114-15437.B" path="src/third_party/khronos" revision="c9d952582b74f9609bf68e0402856a2fc1e536c0" />
   <extend-project name="chromiumos/third_party/labpack" origRev="refs/heads/release-R114-15437.B" path="src/third_party/labpack/files" revision="e250a3e7a528dd8554c9da909ecd02bfc1a509d0" />
   <extend-project name="chromiumos/third_party/lexmark-fax-pnh" origRev="refs/heads/release-R114-15437.B" path="src/third_party/lexmark-fax-pnh" revision="38526cc0edb7544744aed004a1d2e9e00aa7fa7c" />
@@ -155,7 +155,7 @@
   <extend-project name="chromiumos/third_party/logitech-updater" origRev="refs/heads/release-R114-15437.B" path="src/third_party/logitech-updater" revision="d9306e48a18bcb6243dada81178d85891d9c2500" />
   <extend-project name="chromiumos/third_party/marvell" origRev="refs/heads/release-R114-15437.B" path="src/third_party/marvell" revision="a1da785c038730d7d900415945688f6fb76175f4" />
   <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R114-15437.B-upstream-main" path="src/third_party/mesa" revision="128e578c04cd775211cb4f1f2134e322086ab0ee" />
-  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R114-15437.B-chromeos-amd" path="src/third_party/mesa-amd" revision="227c038256fcd845e542ce455b56264fcc0c36e4" />
+  <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R114-15437.B-chromeos-amd" path="src/third_party/mesa-amd" revision="0f53028d5b8afd842a2ee7bb6e9192eeb7e7ae10" />
   <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R114-15437.B-chromeos-arcvm" path="src/third_party/mesa-arcvm" revision="c8405fbe16d5869351804f9c49666072f89e1380" />
   <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R114-15437.B-debian" path="src/third_party/mesa-debian" revision="c36b89b82bcd270e1f9ee7d0824c9e265a39e95b" />
   <extend-project name="chromiumos/third_party/mesa" origRev="refs/heads/release-R114-15437.B-debian-bullseye" path="src/third_party/mesa-debian-bullseye" revision="73e5b58cca35336edd19c6a6907af26e7ddcd17f" />
@@ -185,7 +185,7 @@
   <extend-project name="chromiumos/third_party/sysbios" origRev="refs/heads/release-R114-15437.B" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" />
   <extend-project name="chromiumos/third_party/systemd" origRev="refs/heads/release-R114-15437.B" path="src/third_party/systemd" revision="58d3fbc2d946d741887b2300d4c70dbe9cddcc7c" />
   <extend-project name="chromiumos/third_party/tlsdate" origRev="refs/heads/release-R114-15437.B" path="src/third_party/tlsdate" revision="db811efad1d655e5aad763d0871aa4e97fcbfcfc" />
-  <extend-project name="chromiumos/third_party/toolchain-utils" origRev="refs/heads/release-R114-15437.B" path="src/third_party/toolchain-utils" revision="31b51eb99c00eb11648e04484e6bf5f3b0f086fe" />
+  <extend-project name="chromiumos/third_party/toolchain-utils" origRev="refs/heads/release-R114-15437.B" path="src/third_party/toolchain-utils" revision="e3c0748ea04bb1771a2d7dc79dd3af9f8a2e838d" />
   <extend-project name="chromiumos/overlays/toolchains" origRev="refs/heads/release-R114-15437.B" path="src/third_party/toolchains-overlay" revision="00bf04d3d2db2043cf524a931634e9ca71fc97ea" />
   <extend-project name="chromiumos/platform/tpm" origRev="refs/heads/release-R114-15437.B" path="src/third_party/tpm" revision="421593a8cea1083288d5d047b0c43f85c92fe069" />
   <extend-project name="chromiumos/third_party/tpm2" origRev="refs/heads/release-R114-15437.B" path="src/third_party/tpm2" revision="302248e3d8bd39059235b827055195156bbb8175" />
@@ -237,9 +237,9 @@
   <extend-project name="aosp/platform/system/core/libsync" origRev="refs/heads/release-R114-15437.B" path="src/aosp/system/libsync" revision="074e053f159602aa7558cfb2ae2f3c67878d90e0" />
   <extend-project name="aosp/platform/system/logging" origRev="refs/heads/release-R114-15437.B" path="src/aosp/system/logging" revision="2e909ccdf779939e5caa5ab52851f38f22037ae9" />
   <extend-project name="aosp/platform/system/update_engine" origRev="refs/heads/release-R114-15437.B" path="src/aosp/system/update_engine" revision="2d5a5c1ada7466969380def5e74d5f71da8466e5" />
-  <extend-project name="chromiumos/chromite" origRev="refs/heads/main" path="infra/chromite-HEAD" revision="85dc0b295293cb4e7d87253182a37d6c788d1b28" />
+  <extend-project name="chromiumos/chromite" origRev="refs/heads/main" path="infra/chromite-HEAD" revision="6d7e5ba712a903024421fb072732f929e705a59e" />
   <extend-project name="chromiumos/infra/go" origRev="refs/heads/main" path="infra/go" revision="8f53fa831d621d5d9541f1921ed00d6bcaea49ae" />
   <extend-project name="chromiumos/infra/lucifer" origRev="refs/heads/release-R114-15437.B" path="infra/lucifer" revision="12e9e6bde527c0bf97ff68c1d5f70385e15d1e58" />
-  <extend-project name="chromiumos/infra/proto" origRev="refs/heads/main" path="infra/proto" revision="e14960b656658351043d6b9cc459466dcb436847" />
+  <extend-project name="chromiumos/infra/proto" origRev="refs/heads/main" path="infra/proto" revision="b50ce0dcbae8cf7c7748e1a25e12c15436ac94db" />
   <extend-project name="chromiumos/infra_virtualenv" origRev="refs/heads/release-R114-15437.B" path="infra_virtualenv" revision="39254f97db8d6ab8b3fdef3d2f7038ac42978b78" />
   </manifest>
