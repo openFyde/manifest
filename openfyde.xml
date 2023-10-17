@@ -140,4 +140,16 @@
     <linkfile src="." dest="src/overlays/project-vmware" />
   </project>
 
+  <remove-project
+    path="src/third_party/chromiumos-overlay"
+    name="chromiumos/overlays/chromiumos-overlay"
+  />
+  <project
+    path="src/third_party/chromiumos-overlay"
+    name="chromiumos-overlay"
+    revision="refs/heads/release-R114-15437.B-openfyde"
+    groups="fydeos,fydeos_overlays"
+    remote="openfyde">
+  </project>
+
 </manifest>
