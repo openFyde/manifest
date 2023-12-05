@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="openfyde"
-	  fetch="https://github.com/openFyde" />
+  <include name="local_manifests/remotes.xml" />
 
   <project path="openfyde/extra-overlays"
     name="extra-overlays"
@@ -13,7 +12,7 @@
 
   <project path="openfyde/dotgclient"
 	   name="dotgclient"
-	   revision="refs/heads/main"
+	   revision="refs/heads/gitee"
 	   groups="fydeos,chromium"
 	   remote="openfyde">
     <linkfile src="dotgclient" dest="openfyde/chromium/.gclient" />

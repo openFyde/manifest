@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="openfyde"
-	  fetch="https://github.com/openFyde" />
+  <include name="local_manifests/remotes.xml" />
 
   <project path="openfyde/chromium/src"
-	   name="chromium"
+	   name="chromium/src"
 	   revision="refs/heads/openfyde-r114-dev"
 	   groups="fydeos,chromium"
-	   remote="openfyde">
+	   remote="openfyde_cros">
   </project>
 </manifest>

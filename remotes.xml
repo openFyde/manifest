@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="openfyde_cros"
+          fetch="https://gerrit.openfyde.cn/chromium.googlesource.com" />
+
+  <remote name="openfyde_chromium"
+          alias="openfyde_cros"
+          fetch="https://gerrit.openfyde.cn/chromium.googlesource.com" />
+
+  <remote name="openfyde_aosp"
+          fetch="https://gerrit.openfyde.cn/android.googlesource.com" />
+
+  <remote name="openfyde"
+          fetch="https://gitee.com/openfyde" />
+
+</manifest>
