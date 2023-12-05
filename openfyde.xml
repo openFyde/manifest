@@ -172,7 +172,7 @@
     name="chromiumos-overlay"
     revision="refs/heads/release-R114-15437.B-openfyde"
     groups="fydeos,fydeos_overlays"
-    remote="openfyde">
+    remote="openfyde_cros">
   </project>
 
 </manifest>
