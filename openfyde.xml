@@ -169,7 +169,7 @@
   />
   <project
     path="src/third_party/chromiumos-overlay"
-    name="chromiumos-overlay"
+    name="chromiumos/overlays/chromiumos-overlay"
     revision="refs/heads/release-R114-15437.B-openfyde"
     groups="fydeos,fydeos_overlays"
     remote="openfyde_cros">
