@@ -10,13 +10,13 @@
     <linkfile src="host-overlay" dest="src/private-overlays/chromeos-partner-overlay" />
   </project>
 
-  <project path="openfyde/dotgclient"
-	   name="dotgclient"
-	   revision="refs/heads/gitee"
-	   groups="fydeos,chromium"
-	   remote="openfyde">
-    <linkfile src="dotgclient" dest="openfyde/chromium/.gclient" />
-  </project>
+  <!-- <project path="openfyde/dotgclient" -->
+  <!--   name="dotgclient" -->
+  <!--   revision="refs/heads/gitee" -->
+  <!--   groups="fydeos,chromium" -->
+  <!--   remote="openfyde"> -->
+  <!--   <linkfile src="dotgclient" dest="openfyde/chromium/.gclient" /> -->
+  <!-- </project> -->
 
   <project path="openfyde/overlays/fyde-eclass"
     name="fyde-eclass"
@@ -76,7 +76,7 @@
 
   <project path="openfyde/overlays/project-openfyde"
     name="project-openfyde"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r114-dev-gitee"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde" />
