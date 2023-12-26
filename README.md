@@ -1,14 +1,14 @@
 # manifest
 
-openFyde anchors revisions of upstream projects in file `chromiumos.xml`:
+jemaos anchors revisions of upstream projects in file `chromiumos.xml`:
 
 <!-- markdownlint-disable line-length -->
 ```xml
 <manifest>
   <!-- .... -->
-  <extend-project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="refs/heads/release-R96-14268.B-fydeos" origRev="refs/heads/release-R96-14268.B" />
-  <extend-project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="release-R96-14268.B-fydeos" origRev="refs/heads/release-R96-14268.B" />
-  <extend-project name="chromium/tools/depot_tools" path="src/chromium/depot_tools" revision="release-R96-14268.B-fydeos" origRev="09f358bae36c316e3c4c39cd344de964bd0fed7c" />
+  <extend-project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="refs/heads/release-R96-14268.B-jemaosos" origRev="refs/heads/release-R96-14268.B" />
+  <extend-project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="release-R96-14268.B-jemaosos" origRev="refs/heads/release-R96-14268.B" />
+  <extend-project name="chromium/tools/depot_tools" path="src/chromium/depot_tools" revision="release-R96-14268.B-jemaosos" origRev="09f358bae36c316e3c4c39cd344de964bd0fed7c" />
   <!-- .... -->
 </manifest>
 ```
@@ -16,6 +16,6 @@ openFyde anchors revisions of upstream projects in file `chromiumos.xml`:
 
 Basically, `chromiumos.xml` doesn't change in one release life cycle.
 
-The `openfyde.xml` contains projects which openFyde owns.
-The projects are necessary for building openFyde for board `amd64-openfyde`.
+The `jemaos.xml` contains projects which jemaos owns.
+The projects are necessary for building jemaos for board `amd64-jemaos`.
 
