@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="rpi_fydeos"
-    fetch="https://github.com/FydeOS" />
+  <remote name="rpi_jemaosos"
+    fetch="https://github.com/jemaosOS" />
 
-  <project path="openfyde/overlays/chromium_os-raspberry_pi"
+  <project path="jemaos/overlays/chromium_os-raspberry_pi"
     name="chromium_os-raspberry_pi"
     revision="refs/heads/r102-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="rpi_fydeos">
+    groups="jemaosos,jemaosos_overlays,project"
+    remote="rpi_jemaosos">
     <linkfile src="baseboard-rpi3" dest="src/overlays/baseboard-rpi3" />
     <linkfile src="chipset-bcm2837" dest="src/overlays/chipset-bcm2837" />
     <linkfile src="project-cros-pi" dest="src/overlays/project-cros-pi" />
