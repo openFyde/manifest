@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="openfyde"
-	  fetch="https://github.com/openFyde" />
+  <remote name="jemaos"
+	  fetch="https://github.com/jemaos" />
 
-  <project path="openfyde/chromium/src"
+  <project path="jemaos/chromium/src"
 	   name="chromium"
 	   revision="refs/heads/r102-dev"
-	   groups="fydeos,chromium"
-	   remote="openfyde">
+	   groups="jemaos,chromium"
+	   remote="jemaos">
   </project>
 </manifest>

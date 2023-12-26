@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="openfyde/overlays/foundation-rk3588"
+  <project path="jemaos/overlays/foundation-rk3588"
     name="foundation-rk3588"
     revision="refs/heads/r102-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
     <linkfile src="baseboard-inaugural" dest="src/overlays/baseboard-inaugural" />
     <linkfile src="chipset-rk3588" dest="src/overlays/chipset-rk3588" />
   </project>
 
-  <project path="openfyde/overlays/overlay-firefly_rk3588spc-openfyde"
-    name="overlay-firefly_rk3588spc-openfyde"
+  <project path="jemaos/overlays/overlay-firefly_rk3588spc-jemaos"
+    name="overlay-firefly_rk3588spc-jemaos"
     revision="refs/heads/r102-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-firefly_rk3588spc-openfyde" />
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-firefly_rk3588spc-jemaos" />
   </project>
 
-  <project path="openfyde/overlays/overlay-firefly_itx3588j-openfyde"
-    name="overlay-firefly_itx3588j-openfyde"
+  <project path="jemaos/overlays/overlay-firefly_itx3588j-jemaos"
+    name="overlay-firefly_itx3588j-jemaos"
     revision="refs/heads/r102-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-firefly_itx3588j-openfyde" />
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-firefly_itx3588j-jemaos" />
   </project>
 
-  <project path="openfyde/overlays/overlay-rock5b-openfyde"
-    name="overlay-rock5b-openfyde"
+  <project path="jemaos/overlays/overlay-rock5b-jemaos"
+    name="overlay-rock5b-jemaos"
     revision="refs/heads/r102-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde" />
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-rock5b-jemaos" />
   </project>
 
 </manifest>
