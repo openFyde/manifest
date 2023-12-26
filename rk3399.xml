@@ -3,7 +3,7 @@
   <project path="jemaos/overlays/foundation-rk3399"
     name="foundation-rk3399"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="baseboard-rockpi4" dest="src/overlays/baseboard-rockpi4" />
     <linkfile src="chipset-rk3399-jemaos" dest="src/overlays/chipset-rk3399-jemaos" />
@@ -12,7 +12,7 @@
   <project path="jemaos/overlays/overlay-rockpi4b-jemaos"
     name="overlay-rockpi4b-jemaos"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-rockpi4b-jemaos" />
   </project>
@@ -20,7 +20,7 @@
   <project path="jemaos/overlays/overlay-rock4cp-jemaos"
     name="overlay-rock4cp-jemaos"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-rock4cp-jemaos" />
   </project>
