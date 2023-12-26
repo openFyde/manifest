@@ -8,7 +8,7 @@
   <project path="jemaos/extra-overlays"
     name="extra-overlays"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays"
+    groups="jemaos,jemaos_overlays"
     remote="jemaos">
     <linkfile src="host-overlay" dest="src/private-overlays/chromeos-partner-overlay" />
   </project>
@@ -16,7 +16,7 @@
   <project path="jemaos/dotgclient"
 	   name="dotgclient"
 	   revision="refs/heads/main"
-	   groups="jemaosos,chromium"
+	   groups="jemaos,chromium"
 	   remote="jemaos">
     <linkfile src="dotgclient" dest="jemaos/chromium/.gclient" />
   </project>
@@ -24,7 +24,7 @@
   <project path="jemaos/overlays/jemaos-eclass"
     name="jemaos-eclass"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,board"
+    groups="jemaos,jemaos_overlays,board"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/jemaos-eclass" />
   </project>
@@ -32,7 +32,7 @@
   <project path="jemaos/overlays/overlay-amd64-jemaos"
     name="overlay-amd64-jemaos"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,board"
+    groups="jemaos,jemaos_overlays,board"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-amd64-jemaos" />
   </project>
@@ -40,7 +40,7 @@
   <project path="jemaos/overlays/overlay-amd64-jemaos_apu"
     name="overlay-amd64-jemaos_apu"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,board"
+    groups="jemaos,jemaos_overlays,board"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-amd64-jemaos_apu" />
   </project>
@@ -48,7 +48,7 @@
   <project path="jemaos/overlays/overlay-amd64-jemaos_vmware"
     name="overlay-amd64-jemaos_vmware"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,board"
+    groups="jemaos,jemaos_overlays,board"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-amd64-jemaos_vmware" />
   </project>
@@ -56,7 +56,7 @@
   <project path="jemaos/overlays/arch-amd64"
     name="arch-amd64"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/arch-amd64" />
   </project>
@@ -64,7 +64,7 @@
   <project path="jemaos/overlays/project-jemaosmina"
     name="project-jemaosmina"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/project-jemaosmina" />
   </project>
@@ -72,7 +72,7 @@
   <project path="jemaos/overlays/project-jemaos"
     name="project-jemaos"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/project-jemaos" />
   </project>
@@ -80,7 +80,7 @@
   <project path="jemaos/overlays/project-jemaos-drivers"
     name="project-jemaos-drivers"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/project-jemaos-drivers" />
   </project>
@@ -88,7 +88,7 @@
   <project path="jemaos/overlays/project-gentoo-pkgs"
     name="project-gentoo-pkgs"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/project-gentoo-pkgs" />
   </project>
@@ -96,7 +96,7 @@
   <project path="jemaos/overlays/project-jemaos-patches"
     name="project-jemaos-patches"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/project-jemaos-patches" />
   </project>
@@ -104,7 +104,7 @@
   <project path="jemaos/overlays/project-ime"
     name="project-ime"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/project-ime" />
   </project>
@@ -112,7 +112,7 @@
   <project path="jemaos/overlays/overlay-rpi4-jemaos"
     name="overlay-rpi4-jemaos"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,board"
+    groups="jemaos,jemaos_overlays,board"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-rpi4-jemaos" />
   </project>
@@ -120,7 +120,7 @@
   <project path="jemaos/overlays/project-jemaos-fingerprint"
     name="project-jemaos-fingerprint"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/project-jemaos-fingerprint" />
   </project>

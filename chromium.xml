@@ -6,7 +6,7 @@
   <project path="jemaos/chromium/src"
 	   name="chromium"
 	   revision="refs/heads/r102-dev"
-	   groups="jemaosos,chromium"
+	   groups="jemaos,chromium"
 	   remote="jemaos">
   </project>
 </manifest>

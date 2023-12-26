@@ -3,7 +3,7 @@
   <project path="jemaos/overlays/foundation-rk3588"
     name="foundation-rk3588"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="baseboard-inaugural" dest="src/overlays/baseboard-inaugural" />
     <linkfile src="chipset-rk3588" dest="src/overlays/chipset-rk3588" />
@@ -12,7 +12,7 @@
   <project path="jemaos/overlays/overlay-firefly_rk3588spc-jemaos"
     name="overlay-firefly_rk3588spc-jemaos"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-firefly_rk3588spc-jemaos" />
   </project>
@@ -20,7 +20,7 @@
   <project path="jemaos/overlays/overlay-firefly_itx3588j-jemaos"
     name="overlay-firefly_itx3588j-jemaos"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-firefly_itx3588j-jemaos" />
   </project>
@@ -28,7 +28,7 @@
   <project path="jemaos/overlays/overlay-rock5b-jemaos"
     name="overlay-rock5b-jemaos"
     revision="refs/heads/r102-dev"
-    groups="jemaosos,jemaosos_overlays,project"
+    groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-rock5b-jemaos" />
   </project>
