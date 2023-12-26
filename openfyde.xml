@@ -124,6 +124,22 @@
     <linkfile src="." dest="src/overlays/overlay-rpi4-openfyde" />
   </project>
 
+  <project path="openfyde/overlays/project-rpi5"
+    name="project-rpi5"
+    revision="refs/heads/r114-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-rpi5" />
+  </project>
+
+  <project path="openfyde/overlays/overlay-rpi5-openfyde"
+    name="overlay-rpi5-openfyde"
+    revision="refs/heads/r114-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-rpi5-openfyde" />
+  </project>
+
   <project path="openfyde/overlays/project-openfyde-fingerprint"
     name="project-openfyde-fingerprint"
     revision="refs/heads/r114-dev"
