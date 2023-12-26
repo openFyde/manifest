@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="openfyde/overlays/foundation-rk3588"
+  <project path="jemaos/overlays/foundation-rk3588"
     name="foundation-rk3588"
     revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
     <linkfile src="baseboard-inaugural" dest="src/overlays/baseboard-inaugural" />
     <linkfile src="chipset-rk3588" dest="src/overlays/chipset-rk3588" />
   </project>
 
-  <project path="openfyde/overlays/overlay-inaugural"
+  <project path="jemaos/overlays/overlay-inaugural"
     name="overlay-inaugural"
     revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,board"
-    remote="openfyde">
+    groups="jemaos,jemaos_overlays,board"
+    remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-inaugural" />
   </project>
 
-  <project path="openfyde/overlays/overlay-inaugural-openfyde"
-    name="overlay-inaugural-openfyde"
+  <project path="jemaos/overlays/overlay-inaugural-jemaos"
+    name="overlay-inaugural-jemaos"
     revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,board"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-inaugural-openfyde" />
+    groups="jemaos,jemaos_overlays,board"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-inaugural-jemaos" />
   </project>
 
-  <project path="openfyde/overlays/overlay-fydetab_duo-openfyde-base"
-    name="overlay-fydetab_duo-openfyde-base"
+  <project path="jemaos/overlays/overlay-jemaostab_duo-jemaos-base"
+    name="overlay-jemaostab_duo-jemaos-base"
     revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,board"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-fydetab_duo-openfyde-base" />
+    groups="jemaos,jemaos_overlays,board"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-jemaostab_duo-jemaos-base" />
   </project>
 
-  <project path="openfyde/overlays/overlay-fydetab_duo-openfyde"
-    name="overlay-fydetab_duo-openfyde"
+  <project path="jemaos/overlays/overlay-jemaostab_duo-jemaos"
+    name="overlay-jemaostab_duo-jemaos"
     revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,board"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-fydetab_duo-openfyde" />
+    groups="jemaos,jemaos_overlays,board"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-jemaostab_duo-jemaos" />
   </project>
 
-  <project path="openfyde/overlays/overlay-firefly_rk3588spc-openfyde"
-    name="overlay-firefly_rk3588spc-openfyde"
+  <project path="jemaos/overlays/overlay-firefly_rk3588spc-jemaos"
+    name="overlay-firefly_rk3588spc-jemaos"
     revision="refs/heads/r102-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-firefly_rk3588spc-openfyde" />
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-firefly_rk3588spc-jemaos" />
   </project>
 
-  <project path="openfyde/overlays/overlay-firefly_itx3588j-openfyde"
-    name="overlay-firefly_itx3588j-openfyde"
+  <project path="jemaos/overlays/overlay-firefly_itx3588j-jemaos"
+    name="overlay-firefly_itx3588j-jemaos"
     revision="refs/heads/r102-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-firefly_itx3588j-openfyde" />
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-firefly_itx3588j-jemaos" />
   </project>
 
-  <project path="openfyde/overlays/overlay-rock5b-openfyde-base"
-    name="overlay-rock5b-openfyde-base"
+  <project path="jemaos/overlays/overlay-rock5b-jemaos-base"
+    name="overlay-rock5b-jemaos-base"
     revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde-base" />
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-rock5b-jemaos-base" />
   </project>
 
-  <project path="openfyde/overlays/overlay-rock5b-openfyde"
-    name="overlay-rock5b-openfyde"
+  <project path="jemaos/overlays/overlay-rock5b-jemaos"
+    name="overlay-rock5b-jemaos"
     revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde" />
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-rock5b-jemaos" />
   </project>
 
-  <project path="openfyde/overlays/overlay-orangepi5-openfyde-base"
-    name="overlay-orangepi5-openfyde-base"
+  <project path="jemaos/overlays/overlay-orangepi5-jemaos-base"
+    name="overlay-orangepi5-jemaos-base"
     revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-orangepi5-openfyde-base" />
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-orangepi5-jemaos-base" />
   </project>
 
-  <project path="openfyde/overlays/overlay-orangepi5-openfyde"
-    name="overlay-orangepi5-openfyde"
+  <project path="jemaos/overlays/overlay-orangepi5-jemaos"
+    name="overlay-orangepi5-jemaos"
     revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-orangepi5-openfyde" />
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-orangepi5-jemaos" />
   </project>
 
-    <project path="openfyde/overlays/overlay-edge2-openfyde-base"
-    name="overlay-edge2-openfyde-base"
+    <project path="jemaos/overlays/overlay-edge2-jemaos-base"
+    name="overlay-edge2-jemaos-base"
     revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-edge2-openfyde-base" />
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-edge2-jemaos-base" />
   </project>
 
-  <project path="openfyde/overlays/overlay-edge2-openfyde"
-    name="overlay-edge2-openfyde"
+  <project path="jemaos/overlays/overlay-edge2-jemaos"
+    name="overlay-edge2-jemaos"
     revision="refs/heads/r108-dev"
-    groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-edge2-openfyde" />
+    groups="jemaos,jemaos_overlays,project"
+    remote="jemaos">
+    <linkfile src="." dest="src/overlays/overlay-edge2-jemaos" />
   </project>
 
 </manifest>
