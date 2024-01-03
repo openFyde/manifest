@@ -35,6 +35,14 @@
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde" />
   </project>
 
+  <project path="openfyde/overlays/overlay-amd64-openfyde_iris"
+    name="overlay-amd64-openfyde_iris"
+    revision="refs/heads/r114-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-amd64-openfyde_iris" />
+  </project>
+
   <project path="openfyde/overlays/overlay-amd64-openfyde_apu"
     name="overlay-amd64-openfyde_apu"
     revision="refs/heads/r114-dev"
