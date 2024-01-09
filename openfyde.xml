@@ -21,7 +21,7 @@
 
   <project path="openfyde/overlays/fyde-eclass"
     name="fyde-eclass"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/fyde-eclass" />
@@ -29,7 +29,7 @@
 
   <project path="openfyde/overlays/overlay-amd64-openfyde"
     name="overlay-amd64-openfyde"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde" />
@@ -37,7 +37,7 @@
 
   <project path="openfyde/overlays/overlay-amd64-openfyde_iris"
     name="overlay-amd64-openfyde_iris"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde_iris" />
@@ -61,7 +61,7 @@
 
   <project path="openfyde/overlays/arch-amd64"
     name="arch-amd64"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/arch-amd64" />
@@ -69,7 +69,7 @@
 
   <project path="openfyde/overlays/project-fydemina"
     name="project-fydemina"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-fydemina" />
@@ -77,7 +77,7 @@
 
   <project path="openfyde/overlays/project-openfyde"
     name="project-openfyde"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde" />
@@ -85,7 +85,7 @@
 
   <project path="openfyde/overlays/project-openfyde-drivers"
     name="project-openfyde-drivers"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde-drivers" />
@@ -101,7 +101,7 @@
 
   <project path="openfyde/overlays/project-openfyde-patches"
     name="project-openfyde-patches"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde-patches" />
@@ -171,7 +171,7 @@
   <project
     path="src/third_party/chromiumos-overlay"
     name="chromiumos-overlay"
-    revision="refs/heads/release-R114-15437.B-openfyde"
+    revision="refs/heads/release-R120-15662.B-openfyde"
     groups="fydeos,fydeos_overlays"
     remote="openfyde">
   </project>
