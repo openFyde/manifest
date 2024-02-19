@@ -2,7 +2,7 @@
 <manifest>
   <project path="openfyde/overlays/foundation-rk3588"
     name="foundation-rk3588"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="baseboard-inaugural" dest="src/overlays/baseboard-inaugural" />
@@ -11,7 +11,7 @@
 
   <project path="openfyde/overlays/overlay-inaugural"
     name="overlay-inaugural"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-inaugural" />
@@ -19,23 +19,23 @@
 
   <project path="openfyde/overlays/overlay-inaugural-openfyde"
     name="overlay-inaugural-openfyde"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-inaugural-openfyde" />
   </project>
 
-  <project path="openfyde/overlays/overlay-fydetab_duo-openfyde-base"
-    name="overlay-fydetab_duo-openfyde-base"
-    revision="refs/heads/r114-dev"
-    groups="fydeos,fydeos_overlays,board"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-fydetab_duo-openfyde-base" />
-  </project>
+  <!-- <project path="openfyde/overlays/overlay-fydetab_duo-openfyde-base" -->
+  <!--   name="overlay-fydetab_duo-openfyde-base" -->
+  <!--   revision="refs/heads/r120-dev" -->
+  <!--   groups="fydeos,fydeos_overlays,board" -->
+  <!--   remote="openfyde"> -->
+  <!--   <linkfile src="." dest="src/overlays/overlay-fydetab_duo-openfyde-base" /> -->
+  <!-- </project> -->
 
   <project path="openfyde/overlays/overlay-fydetab_duo-openfyde"
     name="overlay-fydetab_duo-openfyde"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-fydetab_duo-openfyde" />

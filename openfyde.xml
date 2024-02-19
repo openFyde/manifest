@@ -150,7 +150,7 @@
 
   <project path="openfyde/overlays/project-openfyde-fingerprint"
     name="project-openfyde-fingerprint"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde-fingerprint" />
