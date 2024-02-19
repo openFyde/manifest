@@ -53,7 +53,7 @@
 
   <project path="openfyde/overlays/overlay-amd64-openfyde_vmware"
     name="overlay-amd64-openfyde_vmware"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde_vmware" />
@@ -158,7 +158,7 @@
 
   <project path="openfyde/overlays/project-vmware"
     name="project-vmware"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-vmware" />
