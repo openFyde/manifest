@@ -93,7 +93,7 @@
 
   <project path="openfyde/overlays/project-gentoo-pkgs"
     name="project-gentoo-pkgs"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-gentoo-pkgs" />
@@ -116,13 +116,13 @@
   <!--   <linkfile src="." dest="src/overlays/project-ime" /> -->
   <!-- </project> -->
 
-  <project path="openfyde/overlays/overlay-rpi4-openfyde-base"
-    name="overlay-rpi4-openfyde-base"
-    revision="refs/heads/r114-dev"
-    groups="fydeos,fydeos_overlays,board"
-    remote="openfyde">
-    <linkfile src="." dest="src/overlays/overlay-rpi4-openfyde-base" />
-  </project>
+  <!-- <project path="openfyde/overlays/overlay-rpi4-openfyde-base" -->
+  <!--   name="overlay-rpi4-openfyde-base" -->
+  <!--   revision="refs/heads/r114-dev" -->
+  <!--   groups="fydeos,fydeos_overlays,board" -->
+  <!--   remote="openfyde"> -->
+  <!--   <linkfile src="." dest="src/overlays/overlay-rpi4-openfyde-base" /> -->
+  <!-- </project> -->
 
   <project path="openfyde/overlays/overlay-rpi4-openfyde"
     name="overlay-rpi4-openfyde"
