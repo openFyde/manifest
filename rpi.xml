@@ -2,7 +2,7 @@
 <manifest>
   <project path="openfyde/overlays/chromium_os-raspberry_pi"
     name="chromium_os-raspberry_pi"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="baseboard-rpi3" dest="src/overlays/baseboard-rpi3" />
