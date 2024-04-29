@@ -67,7 +67,7 @@
 
   <project path="openfyde/overlays/overlay-rock5b-openfyde"
     name="overlay-rock5b-openfyde"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde" />
@@ -83,7 +83,7 @@
 
   <project path="openfyde/overlays/overlay-orangepi5-openfyde"
     name="overlay-orangepi5-openfyde"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-orangepi5-openfyde" />
@@ -99,7 +99,7 @@
 
   <project path="openfyde/overlays/overlay-edge2-openfyde"
     name="overlay-edge2-openfyde"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-edge2-openfyde" />
