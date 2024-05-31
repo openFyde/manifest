@@ -5,7 +5,7 @@
 
   <project path="openfyde/extra-overlays"
     name="extra-overlays"
-    revision="refs/heads/r114-dev"
+    revision="refs/heads/r120-dev"
     groups="fydeos,fydeos_overlays"
     remote="openfyde">
     <linkfile src="host-overlay" dest="src/private-overlays/chromeos-partner-overlay" />
