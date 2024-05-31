@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="openfyde_chromium_internal"
-	  fetch="ssh://git@gitlab.fydeos.xyz/chromium-source" />
+  <remote name="openfyde"
+	  fetch="https://github.com/openFyde" />
 
   <project path="openfyde/chromium/src"
 	   name="chromium"
 	   revision="refs/heads/openfyde-r120-dev"
 	   groups="fydeos,chromium"
-	   remote="openfyde_chromium_internal">
+	   remote="openfyde">
   </project>
 </manifest>
