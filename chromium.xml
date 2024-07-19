@@ -5,7 +5,7 @@
 
   <project path="openfyde/chromium/src"
 	   name="chromium"
-	   revision="refs/heads/openfyde-r120-dev"
+	   revision="refs/tags/126.0.6478.191"
 	   groups="fydeos,chromium"
 	   remote="openfyde_chromium_internal">
   </project>
