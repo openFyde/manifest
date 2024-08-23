@@ -43,9 +43,17 @@
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde_iris" />
   </project>
 
+  <project path="openfyde/overlays/overlay-amd64-openfyde_vmware"
+    name="overlay-amd64-openfyde_vmware"
+    revision="refs/heads/r126-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-amd64-openfyde_vmware" />
+  </project>
+
   <project path="openfyde/overlays/arch-amd64"
     name="arch-amd64"
-    revision="refs/heads/r120-dev"
+    revision="refs/heads/r126-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/arch-amd64" />
@@ -77,10 +85,18 @@
 
   <project path="openfyde/overlays/project-openfyde-patches"
     name="project-openfyde-patches"
-    revision="refs/heads/r120-dev"
+    revision="refs/heads/r126-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde-patches" />
+  </project>
+
+  <project path="openfyde/overlays/project-vmware"
+    name="project-vmware"
+    revision="refs/heads/r126-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-vmware" />
   </project>
 
   <remove-project
