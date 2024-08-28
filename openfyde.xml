@@ -29,7 +29,7 @@
 
   <project path="openfyde/overlays/overlay-amd64-openfyde"
     name="overlay-amd64-openfyde"
-    revision="refs/heads/r120-dev"
+    revision="refs/heads/r126-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde" />
@@ -37,7 +37,7 @@
 
   <project path="openfyde/overlays/overlay-amd64-openfyde_iris"
     name="overlay-amd64-openfyde_iris"
-    revision="refs/heads/r120-dev"
+    revision="refs/heads/r126-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde_iris" />
