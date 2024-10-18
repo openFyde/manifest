@@ -33,4 +33,11 @@
     <linkfile src="." dest="src/overlays/overlay-fydetab_duo-openfyde" />
   </project>
 
+  <project path="openfyde/overlays/overlay-orangepi5-openfyde"
+    name="overlay-orangepi5-openfyde"
+    revision="refs/heads/r126-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-orangepi5-openfyde" />
+  </project>
 </manifest>
