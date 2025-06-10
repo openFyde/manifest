@@ -123,6 +123,14 @@
     <linkfile src="." dest="src/overlays/overlay-edge2-openfyde" />
   </project>
 
+  <project path="openfyde/overlays/overlay-rock5b-openfyde"
+    name="overlay-rock5b-openfyde"
+    revision="refs/heads/r132-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde" />
+  </project>
+
   <project path="openfyde/overlays/project-openfyde-fingerprint"
     name="project-openfyde-fingerprint"
     revision="refs/heads/r132-dev"
