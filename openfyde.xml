@@ -147,6 +147,14 @@
     <linkfile src="." dest="src/overlays/project-vmware" />
   </project>
 
+  <project path="openfyde/overlays/project-tablet"
+    name="project-tablet"
+    revision="refs/heads/r132-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-tablet" />
+  </project>
+
   <remove-project
     path="src/third_party/chromiumos-overlay"
     name="chromiumos/overlays/chromiumos-overlay"
