@@ -6,6 +6,14 @@
   <remote name="fydeos-overlays"
     fetch="ssh://git@gitlab.fydeos.xyz/fydeos-overlays" />
 
+  <project path="openfyde/dotgclient"
+	   name="dotgclient"
+	   revision="refs/heads/main"
+	   groups="fydeos,chromium"
+	   remote="openfyde">
+    <linkfile src="dotgclient" dest="openfyde/chromium/.gclient" />
+  </project>
+
   <project path="openfyde/overlays/fyde-eclass"
     name="fyde-eclass"
     revision="refs/heads/r132-dev"
