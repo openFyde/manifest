@@ -46,6 +46,14 @@
     <linkfile src="." dest="src/overlays/project-openfyde-patches" />
   </project>
 
+  <project path="openfyde/overlays/project-openfyde-fingerprint"
+    name="project-openfyde-fingerprint"
+    revision="refs/heads/r138-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-openfyde-fingerprint" />
+  </project>
+
   <project path="openfyde/overlays/project-vmware"
     name="project-vmware"
     revision="refs/heads/r138-dev"
