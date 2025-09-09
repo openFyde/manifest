@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="openfyde/overlays/foundation-realtek"
-    name="realtek/foundation-realtek"
+    name="foundation-realtek"
     revision="refs/heads/r132-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
