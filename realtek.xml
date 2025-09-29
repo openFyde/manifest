@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="fydeos-external"
+    fetch="git@gitlab.fydeos.xyz:external" />
+
+  <project path="openfyde/overlays/foundation-realtek"
+    name="realtek/foundation-realtek"
+    revision="refs/heads/r138-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="fydeos-external">
+    <linkfile src="baseboard-bleedingedge" dest="src/overlays/baseboard-bleedingedge" />
+    <linkfile src="chipset-rtd1619b" dest="src/overlays/chipset-rtd1619b" />
+    <linkfile src="overlay-bleedingedge" dest="src/overlays/overlay-bleedingedge" />
+  </project>
+  <project path="openfyde/overlays/overlay-xpressreal"
+    name="overlay-xpressreal"
+    revision="refs/heads/r138-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-xpressreal" />
+  </project>
+  <project path="openfyde/overlays/overlay-xpressreal-openfyde"
+    name="overlay-xpressreal-openfyde"
+    revision="refs/heads/r138-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-xpressreal-openfyde" />
+  </project>
+</manifest>
