@@ -150,4 +150,12 @@
     <linkfile src="." dest="src/overlays/overlay-rpi5-openfyde" />
   </project>
 
+  <project path="openfyde/overlays/overlay-rock5b-openfyde"
+    name="overlay-rock5b-openfyde"
+    revision="refs/heads/r138-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde" />
+  </project>
+
 </manifest>
