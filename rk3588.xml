@@ -6,6 +6,7 @@
   <project path="src/third_party/kernel/v6.1-rockchip"
     name="rk-kernel"
     revision="refs/tags/linux-6.1-stan-rkr3.2"
+    clone-depth="1"
     groups="fydeos,kernel"
     remote="openfyde-projects">
   </project>
