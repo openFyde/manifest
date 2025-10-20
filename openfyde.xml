@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="openfyde"
-    fetch="ssh://git@gitlab.fydeos.xyz/openFyde/overlays" />
-
-  <remote name="fydeos-overlays"
-    fetch="ssh://git@gitlab.fydeos.xyz/fydeos-overlays" />
+	  fetch="https://github.com/openFyde" />
 
   <project path="openfyde/overlays/fyde-eclass"
     name="fyde-eclass"
@@ -122,7 +119,7 @@
     name="project-tablet"
     revision="refs/heads/r138-dev"
     groups="fydeos,fydeos_overlays,project"
-    remote="fydeos-overlays">
+    remote="openfyde">
     <linkfile src="." dest="src/overlays/project-tablet" />
   </project>
 
