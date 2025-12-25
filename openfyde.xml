@@ -8,7 +8,7 @@
 
   <project path="openfyde/overlays/fyde-eclass"
     name="fyde-eclass"
-    revision="refs/heads/r138-dev"
+    revision="refs/heads/r144-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/fyde-eclass" />
@@ -56,7 +56,7 @@
 
   <project path="openfyde/overlays/project-openfyde"
     name="project-openfyde"
-    revision="refs/heads/r138-dev"
+    revision="refs/heads/r144-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde" />
@@ -64,7 +64,7 @@
 
   <project path="openfyde/overlays/project-openfyde-drivers"
     name="project-openfyde-drivers"
-    revision="refs/heads/r138-dev"
+    revision="refs/heads/r144-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde-drivers" />
@@ -72,7 +72,7 @@
 
   <project path="openfyde/overlays/project-gentoo-pkgs"
     name="project-gentoo-pkgs"
-    revision="refs/heads/r120-dev"
+    revision="refs/heads/r144-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-gentoo-pkgs" />
