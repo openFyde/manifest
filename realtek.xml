@@ -14,7 +14,7 @@
   </project>
   <project path="openfyde/overlays/overlay-xpressreal"
     name="overlay-xpressreal"
-    revision="refs/heads/r138-dev"
+    revision="refs/heads/r144-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-xpressreal" />
