@@ -150,6 +150,14 @@
     <linkfile src="." dest="src/overlays/overlay-rpi5-openfyde" />
   </project>
 
+  <project path="openfyde/overlays/overlay-cutiepi-openfyde"
+    name="overlay-cutiepi-openfyde"
+    revision="refs/heads/r144-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-cutiepi-openfyde" />
+  </project>
+
   <project path="openfyde/overlays/overlay-edge2-openfyde"
     name="overlay-edge2-openfyde"
     revision="refs/heads/r144-dev"
