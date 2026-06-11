@@ -8,7 +8,7 @@
 
   <project path="openfyde/overlays/fyde-eclass"
     name="fyde-eclass"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/fyde-eclass" />
@@ -16,7 +16,7 @@
 
   <project path="openfyde/overlays/overlay-amd64-openfyde"
     name="overlay-amd64-openfyde"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde" />
@@ -24,7 +24,7 @@
 
   <project path="openfyde/overlays/overlay-amd64-openfyde_slim"
     name="overlay-amd64-openfyde_slim"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde_slim" />
@@ -32,7 +32,7 @@
 
   <project path="openfyde/overlays/overlay-amd64-openfyde_iris"
     name="overlay-amd64-openfyde_iris"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde_iris" />
@@ -40,7 +40,7 @@
 
   <project path="openfyde/overlays/overlay-amd64-openfyde_apu"
     name="overlay-amd64-openfyde_apu"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde_apu" />
@@ -48,7 +48,7 @@
 
   <project path="openfyde/overlays/arch-amd64"
     name="arch-amd64"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/arch-amd64" />
@@ -56,7 +56,7 @@
 
   <project path="openfyde/overlays/project-openfyde"
     name="project-openfyde"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde" />
@@ -64,7 +64,7 @@
 
   <project path="openfyde/overlays/project-openfyde-drivers"
     name="project-openfyde-drivers"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde-drivers" />
@@ -72,7 +72,7 @@
 
   <project path="openfyde/overlays/project-gentoo-pkgs"
     name="project-gentoo-pkgs"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-gentoo-pkgs" />
@@ -80,7 +80,7 @@
 
   <project path="openfyde/overlays/project-openfyde-patches"
     name="project-openfyde-patches"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde-patches" />
@@ -88,7 +88,7 @@
 
   <project path="openfyde/overlays/project-openfyde-fingerprint"
     name="project-openfyde-fingerprint"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-openfyde-fingerprint" />
@@ -96,7 +96,7 @@
 
   <project path="openfyde/overlays/project-vmware"
     name="project-vmware"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-vmware" />
@@ -104,7 +104,7 @@
 
   <project path="openfyde/overlays/overlay-arm64-openfyde_vmware"
     name="overlay-arm64-openfyde_vmware"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-arm64-openfyde_vmware" />
@@ -112,7 +112,7 @@
 
   <project path="openfyde/overlays/overlay-amd64-openfyde_vmware"
     name="overlay-amd64-openfyde_vmware"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-amd64-openfyde_vmware" />
@@ -120,7 +120,7 @@
 
   <project path="openfyde/overlays/project-tablet"
     name="project-tablet"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,project"
     remote="fydeos-overlays">
     <linkfile src="." dest="src/overlays/project-tablet" />
@@ -128,7 +128,7 @@
 
   <project path="openfyde/overlays/overlay-rpi4-openfyde"
     name="overlay-rpi4-openfyde"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-rpi4-openfyde" />
@@ -136,7 +136,7 @@
 
   <project path="openfyde/overlays/project-rpi5"
     name="project-rpi5"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/project-rpi5" />
@@ -144,7 +144,7 @@
 
   <project path="openfyde/overlays/overlay-rpi5-openfyde"
     name="overlay-rpi5-openfyde"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-rpi5-openfyde" />
@@ -152,7 +152,7 @@
 
   <project path="openfyde/overlays/overlay-cutiepi-openfyde"
     name="overlay-cutiepi-openfyde"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-cutiepi-openfyde" />
@@ -160,7 +160,7 @@
 
   <project path="openfyde/overlays/overlay-edge2-openfyde"
     name="overlay-edge2-openfyde"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-edge2-openfyde" />
@@ -168,7 +168,7 @@
 
   <project path="openfyde/overlays/overlay-rock5b-openfyde"
     name="overlay-rock5b-openfyde"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-rock5b-openfyde" />
@@ -176,7 +176,7 @@
 
   <project path="openfyde/overlays/overlay-orangepi5-openfyde"
     name="overlay-orangepi5-openfyde"
-    revision="refs/heads/r144-dev"
+    revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,board"
     remote="openfyde">
     <linkfile src="." dest="src/overlays/overlay-orangepi5-openfyde" />
