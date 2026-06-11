@@ -126,6 +126,14 @@
     <linkfile src="." dest="src/overlays/project-tablet" />
   </project>
 
+  <project path="openfyde/overlays/project-fydroid"
+    name="project-fydroid"
+    revision="refs/heads/r150-dev"
+    groups="fydeos,fydeos_overlays,project"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/project-fydroid" />
+  </project>
+
   <project path="openfyde/overlays/overlay-rpi4-openfyde"
     name="overlay-rpi4-openfyde"
     revision="refs/heads/r150-dev"
