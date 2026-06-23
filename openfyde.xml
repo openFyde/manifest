@@ -190,4 +190,12 @@
     <linkfile src="." dest="src/overlays/overlay-orangepi5-openfyde" />
   </project>
 
+  <project path="openfyde/overlays/overlay-fydroid-host"
+    name="overlay-fydroid-host"
+    revision="refs/heads/r150-dev"
+    groups="fydeos,fydeos_overlays,board"
+    remote="openfyde">
+    <linkfile src="." dest="src/overlays/overlay-fydroid-host" />
+  </project>
+
 </manifest>
