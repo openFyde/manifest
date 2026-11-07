@@ -119,7 +119,7 @@
     name="project-tablet"
     revision="refs/heads/r150-dev"
     groups="fydeos,fydeos_overlays,project"
-    remote="fydeos-overlays">
+    remote="openfyde">
     <linkfile src="." dest="src/overlays/project-tablet" />
   </project>
 
